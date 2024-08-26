@@ -1,0 +1,51 @@
+Name: Charts
+Type: FolderType
+Children:
+- Name: ChartGeneral
+  Id: g=889220225b1a286db69c4351aac97a78
+  Supertype: WebBrowser
+  ReferenceType: HasComponent
+  Children:
+  - Name: URL
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Class: Reference
+    Target: ns=3;i=354
+    Direction: Forward
+  - Class: Reference
+    Target: ns=3;i=356
+    Direction: Forward
+  - Class: Reference
+    Target: ns=3;i=358
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Host
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ChartName
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: BackgroudColor
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Query
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ChartGeneral_RuntimeNetLogic
+    Type: NetLogic
+  - Name: AutoRefresh
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: RefreshDuration
+    Type: BaseDataVariableType
+    DataType: Duration

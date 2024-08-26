@@ -1,0 +1,348 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Types/Types.yaml
+- File: GlobalModels/GlobalModels.yaml
+- Name: AlarmVariables
+  Id: g=8014bb2497fe4851bd5e7f6c701128c9
+  Type: BaseObjectType
+  Children:
+  - Name: a
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: b
+    Type: BaseDataVariableType
+    DataType: Boolean
+- File: Recipes/Recipes.yaml
+- Name: Collection01
+  Id: g=ecc2abf7c05eb901f2cd9833c189ca76
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Variable3
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable4
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable5
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable6
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable7
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable8
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable9
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable10
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable11
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable12
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Variable13
+    Type: BaseDataVariableType
+    DataType: Float
+- Name: CollectionUITypeMapper01
+  Id: g=2c15e57893863a3fbe2e0e5aa2fcee48
+  Type: BaseObjectType
+  Children:
+  - Name: Int32
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__01"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__01"
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: Float
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__CircularGauger__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: Boolean
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__Checkbox__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: String
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringReadOnly__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: LocalizedText
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringReadOnly__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+- Name: TreeViewTest
+  Id: g=514c2022237fa0dbc4024e2e92e7c477
+  Type: BaseObjectType
+  Children:
+  - Name: Node1
+    Type: BaseObjectType
+    Children:
+    - Name: Variable1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 1
+    - Name: Variable2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 2
+    - Name: Node1_1
+      Type: BaseObjectType
+      Children:
+      - Name: Variable1
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 11
+      - Name: Variable2
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 12
+    - Name: Node1_2
+      Type: BaseObjectType
+      Children:
+      - Name: Variable1
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 21
+      - Name: Variable2
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 22
+  - Name: Node2
+    Type: BaseObjectType
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+- Name: GodotSimulate
+  Id: g=5b9f142ebb21d9363606d5c3887301cc
+  Type: BaseObjectType
+  Children:
+  - Name: a
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a2
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a3
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a4
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a5
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a6
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a7
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: a8
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: CollectionUITypeMapper02
+  Id: g=7756fe5ff78ecc20762e9a7ae519b844
+  Type: BaseObjectType
+  Children:
+  - Name: Int32
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__02"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: Float
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__02"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Boolean
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__Checkbox__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: String
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringReadOnly__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: LocalizedText
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringReadOnly__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+- Name: CollectionUITypeMapper_Setting_General
+  Id: g=d1aca809b212fd8f70630e2b9cd09d52
+  Type: BaseObjectType
+  Children:
+  - Name: Int32
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__02"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: Float
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__SpinBox__02"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Boolean
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__Checkbox__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: String
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringEdit__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringEdit__"
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"
+  - Name: LocalizedText
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringEdit__"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/UI/Widgets/CollectionUI/__StringEdit__"
+    - Name: AliasName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Item"

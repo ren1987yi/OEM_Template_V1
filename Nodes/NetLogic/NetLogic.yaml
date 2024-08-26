@@ -1,0 +1,12 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: WebServerHost
+  Type: NetLogic
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: DocumentPath
+    Type: BaseDataVariableType
+    DataType: ResourceUri

@@ -1,0 +1,108 @@
+Name: Retentivity
+Type: RetentivityCategoryFolder
+Children:
+- Name: SecurityRetentivityStorage
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Security"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+  - Name: DeltaObserverEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: AlarmsRetentivityStorage
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Alarms"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+  - Name: DeltaObserverEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: HMISettingRetentivityStorage
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/GlobalModels/HMISetting"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node2
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/GlobalModels/HMIStatic"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node3
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+  - Name: DeltaObserverEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

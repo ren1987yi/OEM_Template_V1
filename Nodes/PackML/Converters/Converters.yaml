@@ -1,0 +1,30 @@
+Name: Converters
+Type: FolderType
+Children:
+- Name: PackML_ModelNameConverter
+  Id: g=958f9b7752f241c773d0f78078e73a51
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+- Name: PackML_StateNameConverter
+  Id: g=37117902825ab80a41d8cdf0b628c93d
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+- Name: PackML_StateColorConverter
+  Id: g=c319c996ba48e85e29b96fe5d1a2c7ff
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource

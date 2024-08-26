@@ -1,0 +1,142 @@
+Name: AlarmTypes
+Type: FolderType
+Children:
+- Name: AlarmType_DigitalAlarmDefaultType
+  Id: g=a6cf3cd79e15519dac4e2bfc86a8ffc9
+  Supertype: OffNormalAlarmType
+  DisplayName: {"LocaleId":"","Text":"DigitalAlarmDefaultType"}
+  Children:
+  - Name: NormalState
+    Type: PropertyType
+    DataType: NodeId
+  - Name: EnabledState
+    Type: TwoStateVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: Id
+      Type: PropertyType
+      DataType: Boolean
+    - Name: ActiveState
+      Type: TwoStateVariableType
+      DataType: LocalizedText
+      ReferenceType: HasTrueSubState
+      Children:
+      - Name: Id
+        Type: PropertyType
+        DataType: Boolean
+  - Name: ActiveState
+    Type: TwoStateVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: Id
+      Type: PropertyType
+      DataType: Boolean
+  - Name: InputNode
+    Type: PropertyType
+    DataType: NodeId
+  - Name: SuppressedOrShelved
+    Type: PropertyType
+    DataType: Boolean
+  - Name: AckedState
+    Type: TwoStateVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: Id
+      Type: PropertyType
+      DataType: Boolean
+  - Class: Reference
+    Target: ns=0;i=9111
+    Direction: Forward
+  - Name: ConditionClassId
+    Type: PropertyType
+    DataType: NodeId
+  - Name: ConditionClassName
+    Type: PropertyType
+    DataType: LocalizedText
+  - Name: ConditionName
+    Type: PropertyType
+    DataType: String
+  - Name: BranchId
+    Type: PropertyType
+    DataType: NodeId
+  - Name: Retain
+    Type: PropertyType
+    DataType: Boolean
+  - Name: Quality
+    Type: ConditionVariableType
+    DataType: StatusCode
+    Children:
+    - Name: SourceTimestamp
+      Type: PropertyType
+      DataType: UtcTime
+  - Name: LastSeverity
+    Type: ConditionVariableType
+    DataType: UInt16
+    Children:
+    - Name: SourceTimestamp
+      Type: PropertyType
+      DataType: UtcTime
+  - Name: Comment
+    Type: ConditionVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: SourceTimestamp
+      Type: PropertyType
+      DataType: UtcTime
+  - Name: ClientUserId
+    Type: PropertyType
+    DataType: String
+  - Class: Reference
+    Target: ns=0;i=9028
+    Direction: Forward
+  - Class: Reference
+    Target: ns=0;i=9027
+    Direction: Forward
+  - Class: Reference
+    Target: ns=0;i=9029
+    Direction: Forward
+  - Name: EventId
+    Type: PropertyType
+    DataType: ByteString
+  - Name: EventType
+    Type: PropertyType
+    DataType: NodeId
+  - Name: SourceNode
+    Type: PropertyType
+    DataType: NodeId
+  - Name: SourceName
+    Type: PropertyType
+    DataType: String
+  - Name: Time
+    Type: PropertyType
+    DataType: UtcTime
+  - Name: ReceiveTime
+    Type: PropertyType
+    DataType: UtcTime
+  - Name: Message
+    Type: PropertyType
+    DataType: LocalizedText
+  - Name: Severity
+    Type: PropertyType
+    DataType: UInt16
+  - Name: Class
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Group
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag1
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag2
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag3
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag4
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32

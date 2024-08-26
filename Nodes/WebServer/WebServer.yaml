@@ -1,0 +1,196 @@
+Name: WebServer
+Type: FolderType
+Children:
+- Name: GodotServer
+  Type: GodotServerType
+  Children:
+  - Name: DataPool
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WebRoot\\GodotApp"
+  - Name: Events
+    Id: g=7b866ceddaf5247027949c5d874bd604
+    Type: BaseObjectType
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49000
+  - Name: Host
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "127.0.0.1"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/GlobalModels/HMISetting/IPAddress"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Url
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Host"
+      - Name: Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Port"
+- Name: ChartServer
+  Type: ChartServerType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49001
+  - Name: Charts
+    Type: BaseObjectType
+    Children:
+    - Name: 13
+      Type: ChartConfigureType
+      Children:
+      - Name: Option
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "{\n  \"series\": [\n    {\n      \"name\": \"Desktops\",\n      \"data\": [ 10, 41, 35, 51, 49, 62, 69, 91, 148 ]\n    }\n  ],\n  \"chart\": {\n    \"height\": 350,\n    \"type\": \"line\",\n    \"zoom\": {\n      \"enabled\": false\n    }\n  },\n  \"dataLabels\": {\n    \"enabled\": false\n  },\n  \"stroke\": {\n    \"curve\": \"straight\"\n  },\n  \"title\": {\n    \"text\": \"\",\n    \"align\": \"left\"\n  },\n  \"grid\": {\n    \"row\": {\n      \"colors\": [ \"#f3f3f3\", \"transparent\" ],\n      \"opacity\": 0.5\n    }\n  },\n  \"xaxis\": {\n    \"categories\": [ \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\" ]\n  }\n}"
+      - Name: IsActive
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Data
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: GetDataMethod
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "GetData"
+      - Name: c13_RuntimeNetLogic
+        Type: NetLogic
+      - Name: Period
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 5000
+    - Name: 14
+      Type: ChartConfigureType
+      Children:
+      - Name: Option
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "{\n  \"series\": [ 44, 55, 13, 43, 22 ],\n  \"chart\": {\n    \"width\": 380,\n    \"type\": \"pie\"\n  },\n  \"labels\": [ \"Team A\", \"Team B\", \"Team C\", \"Team D\", \"Team E\" ],\n  \"responsive\": [\n    {\n      \"breakpoint\": 480,\n      \"options\": {\n        \"chart\": {\n          \"width\": 200\n        },\n        \"legend\": {\n          \"position\": \"bottom\"\n        }\n      }\n    }\n  ]\n}"
+      - Name: IsActive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Data
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: GetDataMethod
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "GetData"
+      - Name: c14_RuntimeNetLogic
+        Type: NetLogic
+      - Name: Period
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 5000
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "D:\\Work\\Optix\\OEM_Template_V1\\ProjectFiles\\WebRoot\\ChartsApp"
+  - Name: Test
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Reference
+    Target: g=ac7824365c2432cc09b319c9cb9e9cac
+    Direction: Forward
+  - Class: Reference
+    Target: g=f16dfc8e98f565090d38424168847184
+    Direction: Forward
+  - Class: Reference
+    Target: g=cddfa63c8781d649528c8346b40a055f
+    Direction: Forward
+  - Class: Reference
+    Target: g=9714580c1914d1e9b4c9990bda7c5c35
+    Direction: Forward
+  - Class: Reference
+    Target: g=8a485803eea56e1263c0a547525066ee
+    Direction: Forward
+  - Class: Reference
+    Target: g=04f63f001757fc62019ca14c00e696a4
+    Direction: Forward
+  - Class: Reference
+    Target: g=79adce90ca82d9431079075309a95b46
+    Direction: Forward
+  - Class: Reference
+    Target: g=aeadd59845a72db088a42e854dd001a4
+    Direction: Forward
+  - Class: Reference
+    Target: g=11bebeaeac14c5f72563a889e3673fdc
+    Direction: Forward
+  - Class: Reference
+    Target: g=a9c94dc4b8b38614e9c63d4c7a7bb4cb
+    Direction: Forward
+  - Class: Reference
+    Target: g=44112cc3f3425bf381663a0cd127ac6d
+    Direction: Forward
+  - Class: Reference
+    Target: g=85da031308383306e1fa58ac04c81ebe
+    Direction: Forward
+  - Class: Reference
+    Target: g=2ccfc2513ad0d13e2e4294ede63f830d
+    Direction: Forward
+  - Class: Reference
+    Target: g=2920d9ce61c66b28a5a7a0b769272ffb
+    Direction: Forward
+  - Class: Reference
+    Target: g=bea90374917991e3992980eb9d65ba37
+    Direction: Forward
+  - Class: Reference
+    Target: g=aa3e0a47f9b29b0488cc0ce39ca201e9
+    Direction: Forward
+  - Class: Reference
+    Target: g=7e7be2fa174a5f0cb192c74316179b3f
+    Direction: Forward
+  - Class: Reference
+    Target: g=5b5df7c569d8b87289454041a78311e1
+    Direction: Forward
+  - Class: Reference
+    Target: g=81924674843025bd3b5cecae8e80f0ea
+    Direction: Forward
+  - Class: Reference
+    Target: g=ced79b7c8cf8836b1a9b58ed3ecbf97b
+    Direction: Forward
+  - Class: Reference
+    Target: g=1e12b115ae96fa0592e688553c272a87
+    Direction: Forward
+  - Class: Reference
+    Target: g=16d797b5b628a262cf9028474f845fe7
+    Direction: Forward

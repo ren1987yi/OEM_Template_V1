@@ -1,0 +1,22 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Guests
+  Id: g=69ad3b7b7e970116a71b673070de5cd6
+  Type: GroupType
+- Name: Manufacturer
+  Id: g=aa8671392ea280f7d5206e66ce78a5c3
+  Type: GroupType
+- Name: Administrators
+  Id: g=7a6849441bf8513c7d5466654b924861
+  Type: GroupType
+- Name: Operators
+  Id: g=6b6dbac522bb4fb7c67e67d7634b6e71
+  Type: GroupType
+- Name: Crafts
+  Id: g=31dced1f14cd69f0b6f3e9016a87de85
+  Type: GroupType
+- Name: Debuggers
+  Id: g=5855586e51dacac1f1ac571c91c048ef
+  Type: GroupType

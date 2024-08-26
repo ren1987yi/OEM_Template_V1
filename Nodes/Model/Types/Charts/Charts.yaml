@@ -1,0 +1,109 @@
+Name: Charts
+Type: FolderType
+Children:
+- Name: ChartServerType
+  Id: g=eacfacaa466e09f902cb5f6522ea6cda
+  Supertype: BaseObjectType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49001
+  - Name: Charts
+    Type: BaseObjectType
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Test
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Method
+    Name: Test
+    Id: g=ac7824365c2432cc09b319c9cb9e9cac
+  - Class: Method
+    Name: Test
+    Id: g=f16dfc8e98f565090d38424168847184
+  - Class: Method
+    Name: Test
+    Id: g=cddfa63c8781d649528c8346b40a055f
+  - Class: Method
+    Name: Test
+    Id: g=9714580c1914d1e9b4c9990bda7c5c35
+  - Class: Method
+    Name: Test
+    Id: g=8a485803eea56e1263c0a547525066ee
+  - Class: Method
+    Name: Test
+    Id: g=04f63f001757fc62019ca14c00e696a4
+  - Class: Method
+    Name: Test
+    Id: g=79adce90ca82d9431079075309a95b46
+  - Class: Method
+    Name: Test
+    Id: g=aeadd59845a72db088a42e854dd001a4
+  - Class: Method
+    Name: Test
+    Id: g=11bebeaeac14c5f72563a889e3673fdc
+  - Class: Method
+    Name: Test
+    Id: g=a9c94dc4b8b38614e9c63d4c7a7bb4cb
+  - Class: Method
+    Name: Test
+    Id: g=44112cc3f3425bf381663a0cd127ac6d
+  - Class: Method
+    Name: Test
+    Id: g=85da031308383306e1fa58ac04c81ebe
+  - Class: Method
+    Name: Test
+    Id: g=2ccfc2513ad0d13e2e4294ede63f830d
+  - Class: Method
+    Name: Test
+    Id: g=2920d9ce61c66b28a5a7a0b769272ffb
+  - Class: Method
+    Name: Test
+    Id: g=bea90374917991e3992980eb9d65ba37
+  - Class: Method
+    Name: Test
+    Id: g=aa3e0a47f9b29b0488cc0ce39ca201e9
+  - Class: Method
+    Name: Test
+    Id: g=7e7be2fa174a5f0cb192c74316179b3f
+  - Class: Method
+    Name: Test
+    Id: g=5b5df7c569d8b87289454041a78311e1
+  - Class: Method
+    Name: Test
+    Id: g=81924674843025bd3b5cecae8e80f0ea
+  - Class: Method
+    Name: Test
+    Id: g=ced79b7c8cf8836b1a9b58ed3ecbf97b
+  - Class: Method
+    Name: Test
+    Id: g=1e12b115ae96fa0592e688553c272a87
+  - Class: Method
+    Name: Test
+    Id: g=16d797b5b628a262cf9028474f845fe7
+- Name: ChartConfigureType
+  Id: g=6e42f26de01b31cb7c0c9abea432bb28
+  Supertype: BaseObjectType
+  Children:
+  - Name: Option
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: IsActive
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Description: {"LocaleId":"en-US","Text":"主动生成模式，由后台刷新数据，提供统一数据"}
+  - Name: Data
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: GetDataMethod
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "GetData"
+  - Name: Period
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5000
+- Name: WebChartHandle
+  Type: NetLogic

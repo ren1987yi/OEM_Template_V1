@@ -1,0 +1,25 @@
+body {
+    overflow-y: hidden; /* 隐藏垂直滚动条 */
+    overflow-x: hidden; /* 隐藏水平滚动条 */
+    height: 100vh;
+    /* background-color: black; */
+    }
+
+#main,
+html,
+body {
+width: 100%;
+background-color: #f1f4f6;
+}
+
+
+#main {
+height: 100vh;
+}
+
+#error{
+color: red;
+font-size: xx-large;
+
+
+}

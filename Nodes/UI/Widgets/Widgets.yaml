@@ -1,0 +1,270 @@
+Name: Widgets
+Type: FolderType
+Description: {"LocaleId":"en-US","Text":"公共的小组件"}
+Children:
+- Name: StateModelSummary
+  Id: g=24fc7f5730a26bb02fe833abdce5a826
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 128.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 48.0
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: rectSignal
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 18.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#7ea886"
+  - Name: lbModel
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+  - Name: lbState
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label2"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 24.0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: Int32
+    Description: {"LocaleId":"en-US","Text":"Model Variable"}
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Int32
+    Description: {"LocaleId":"en-US","Text":"State Variable"}
+- File: MenuItems/MenuItems.yaml
+- File: Buttons/Buttons.yaml
+- Name: ComboBox_KeyConverter
+  Id: g=e391fd8ff9b47765daa11b20efd5ed5c
+  Supertype: ComboBox
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: Model
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: ItemKind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../KVConverter/Pairs"
+  - Name: SelectedValue
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../ModifyVariable@Value"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: SelectedItem
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: UISelectedItem
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+  - Name: UISelectedValue
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    AccessLevel: Read
+  - Class: Reference
+    Target: ns=3;i=480
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 100.0
+  - Name: Item
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: ModifyVariable
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: KVConverter
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Converter/ValueMapConverter"
+  - Name: Query
+    Type: BaseDataVariableType
+    DataType: String
+    ModellingRule: Optional
+    Value: "SELECT * FROM Model"
+  - Name: DisplayValuePath
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Item}/Value"
+  - Name: Visible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SelectedValuePath
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Item}/Key"
+- Name: VerticalLayout_Collection
+  Id: g=c960d7c1b263ffc9109b5e50ba0085e4
+  Supertype: ColumnLayout
+  Description: {"LocaleId":"en-US","Text":"根据Object children 和 UI Mapper 填充容器"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -1.0
+  - Name: Collection_RuntimeNetLogic
+    Type: NetLogic
+  - Name: Model
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: UITypeConverter
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+      Value: 2
+- File: CollectionUI/CollectionUI.yaml
+- Name: HorizontalLayout_Collection
+  Id: g=ef0cf5f1aca18e392bf8b11d13968f93
+  Supertype: RowLayout
+  Description: {"LocaleId":"en-US","Text":"根据Object children 和 UI Mapper 填充容器"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Collection_RuntimeNetLogic
+    Type: NetLogic
+  - Name: Model
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: UITypeConverter
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+- File: TreeView/TreeView.yaml
+- File: Charts/Charts.yaml
+- File: Trends/Trends.yaml

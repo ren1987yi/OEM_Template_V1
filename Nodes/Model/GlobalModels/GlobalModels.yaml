@@ -1,0 +1,128 @@
+Name: GlobalModels
+Type: FolderType
+Children:
+- Name: HMISetting
+  Id: g=b28e6d36bded85b6d6bd51f08c6d4f61
+  Type: HMISettingType
+  Children:
+  - Name: Language
+    Id: g=c9042d67278b21446240a3d3b9c64845
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    Value: "zh-CN"
+  - Name: Unit
+    Id: g=6a8a380804454a483466ebae023a21d0
+    Type: BaseDataVariableType
+    DataType: MeasurementSystem
+    Value: 1
+  - Name: IPAddress
+    Id: g=601793a258c7cd2f29da62baf9766d29
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "127.0.0.1"
+  - Name: GodotHost
+    Id: g=058513afee254b76a95c491a50008a50
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "http://127.0.0.1:49000/index.html"
+  - Name: AllowRemoteSource0
+    Id: g=58e61d9b2654caf51464ae7c11bd16d2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=0688c1b546c49456cc9b6b42bc29e5ec
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[0]"
+  - Name: AllowRemoteSource1
+    Id: g=7fd491e2d70e391d9910ca86a19fd7f4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=1d09ff5052521013f9808e1cfdc8b7ca
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[1]"
+  - Name: AllowRemoteSource2
+    Id: g=9f3ad0dee56b61ce40c46ddc18c0ddde
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=f76f721eb7d1c3fae26265f3917d4d70
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[2]"
+  - Name: AllowRemoteSource3
+    Id: g=1466e263448201ce1353f5718d4cefb0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=8602e06ef587a437a9328d709bf490a5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[3]"
+- Name: HMIStatic
+  Id: g=22885507e7f09d0aaad1aeaf17d35ef6
+  Type: HMIStaticType
+  Children:
+  - Name: LogoPath
+    Id: g=879c9a8a5244744bc570a4b3886d76de
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=7;%PROJECTDIR%/Images/Logo.svg"
+  - Name: ProductVersion
+    Id: g=a57ea54ed8a3fba1705d14a5f5649128
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"aaaaaa"}
+  - Name: SoftwareVersion
+    Id: g=536dca262c254274ccc011a868f11bdb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"bbbbb"}
+  - Name: ProductName
+    Id: g=38c59bb460f50a3f762974925e473bc7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ccccc"}
+  - Name: ProductDescription
+    Id: g=cf3a291299de50c286e5686c81d81397
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"ddddddddd\ngsf\nfsf"}
+- Name: Lock
+  Type: BaseObjectType
+  Children:
+  - Name: ActiveSession
+    Id: g=e23d20b9a2b38b9e9c059494ea44d12e
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: RequestSession
+    Id: g=1944fd8eb626b3561eef0bdb6f073f18
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EmptySession
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: LockHost_RuntimeNetLogic
+    Type: NetLogic

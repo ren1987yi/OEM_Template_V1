@@ -1,0 +1,175 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: DefaultUISessionType
+  Id: g=4305359d1f43a3164d91b674be532ce4
+  Supertype: UISession
+  Children:
+  - Name: IsInteractive
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: true
+  - Name: IsNative
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IsWeb
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IpAddress
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: User
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: ActualLocaleId
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualLanguage
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualMeasurementSystem
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+  - Name: TimeZoneOffset
+    Type: BaseVariableType
+    DataType: TimeZoneDataType
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: Groups
+    Type: BaseObjectType
+  - Name: Roles
+    Type: BaseObjectType
+  - Name: Rights
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=1;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=266
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=269
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=272
+    Direction: Forward
+  - Name: LoggedIn
+    Type: BaseVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: HMISettingType
+  Id: g=48aaacf18613273cdda5120d27d30e76
+  Supertype: BaseObjectType
+  Children:
+  - Name: Language
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    Value: "zh-CN"
+  - Name: Unit
+    Type: BaseDataVariableType
+    DataType: MeasurementSystem
+    Value: 1
+  - Name: IPAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "127.0.0.1"
+  - Name: GodotHost
+    Type: BaseDataVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en-US","Text":"Godot Viewer 域名："}
+    Value: "http://127.0.0.1:49000/index.html"
+  - Name: AllowRemoteSource0
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[0]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: AllowRemoteSource1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[1]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: AllowRemoteSource2
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[2]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: AllowRemoteSource3
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/UI/WebPresentationEngine/AllowedRemoteSources[3]"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+- Name: HMIStaticType
+  Id: g=f6749412bbd1de73f42d2b7e03b46997
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"HMI 常数"}
+  Children:
+  - Name: LogoPath
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: ProductVersion
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: SoftwareVersion
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: ProductName
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+  - Name: ProductDescription
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+- File: Charts/Charts.yaml
+- File: 3DViewer/3DViewer.yaml

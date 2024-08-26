@@ -1,0 +1,189 @@
+Name: UI
+Type: UICategoryFolder
+Children:
+- Name: NativePresentationEngine
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Windows/WindowNative"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/StyleSheets/FeatureDemo2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/Security/Users/Guest"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Type: BaseObjectType
+  - Name: Session
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/Model/Types/DefaultUISessionType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
+- Name: WebPresentationEngine
+  Type: ns=8;PresentationEngine
+  Children:
+  - Name: Protocol
+    Type: BaseDataVariableType
+    DataType: Protocol
+  - Name: IPAddress
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0.0.0.0"
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49999
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/Windows/WindowNative"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/UI/StyleSheets/FeatureDemo2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/Security/Users/Guest"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IsWeb
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IpAddress
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: User
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualLanguage
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualMeasurementSystem
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+      - Name: TimeZoneOffset
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Type: BaseObjectType
+      - Name: Roles
+        Type: BaseObjectType
+      - Name: Rights
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+  - Name: Session
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/Model/Types/DefaultUISessionType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
+  - Name: MaxNumberOfConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 10
+  - Name: AllowedRemoteSources
+    Id: g=82e76af44976c0b7232f25f268c03903
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["http://127.0.0.1:49000/index.html","http://192.168.8.139:49000/index.html","","","","",""]
+- File: Screens/Screens.yaml
+- File: StyleSheets/StyleSheets.yaml
+- File: Widgets/Widgets.yaml
+- File: Components/Components.yaml
+- File: Windows/Windows.yaml
+- File: Pages/Pages.yaml
+- File: Layouts/Layouts.yaml
+- File: Dialogs/Dialogs.yaml
+- File: Templates/Templates.yaml

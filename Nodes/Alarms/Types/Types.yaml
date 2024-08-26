@@ -1,0 +1,71 @@
+Name: Types
+Id: g=c7f9dd86ac2c26667aeb5c1bc0ab5fad
+Type: FolderType
+Children:
+- Name: DigitalAlarmDefaultType
+  Id: g=4583dae548c6f404279beeaeaa0107e7
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=65a871ae0c26acf2ffb5236db77ac3c5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0b5b6b70e8b8c0d01cc0c0d355a516bb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=d5734cf764a716d82d8cd308cae4f487
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Class
+    Id: g=0009b295d6f412cc4e5d551d04ab3484
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Group
+    Id: g=60f540b6ef50b8c94dab376e51016bcf
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag1
+    Id: g=47dc7d63bb82bf60b186bffb5892d822
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag2
+    Id: g=5b5c7c356306eb34372aee52aab86656
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag3
+    Id: g=ce1f96edb728d92e8802324bde60fde1
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag4
+    Id: g=7c95b3ecc3fc226141421bb20fbb7afa
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=a6cf3cd79e15519dac4e2bfc86a8ffc9
+  - Name: Level
+    Id: g=efcaada063b8cc08608f6519537febb1
+    Type: BaseDataVariableType
+    DataType: Int32

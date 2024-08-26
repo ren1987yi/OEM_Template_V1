@@ -1,0 +1,77 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: Guest
+  Id: g=7f58117e14a853fd176e3d2dca5bc8be
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=31f2096d3373bb90d8d1e290277c9324
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=230d9d88be1ab731e2fbe3b6fc1df919
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [151,169,7,66,40,183,177,109,186,69,240,116,249,226,61,29,136,50,199,42,72,239,235,193,78,189,203,236,80,179,57,29],
+         "Salt": [124,236,72,132,90,27,163,126,196,230,183,34,244,134,219,53,152,70,123,90,235,203,93,46,63,29,133,3,81,78,173,29]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=bf10897f6b10bc2152aca5f4e4a6d635
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-08-16T06:40:04.4062616"
+    - Name: History
+      Id: g=0528b760343ea6a3984f423ff5564547
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[151,169,7,66,40,183,177,109,186,69,240,116,249,226,61,29,136,50,199,42,72,239,235,193,78,189,203,236,80,179,57,29],"Salt":[124,236,72,132,90,27,163,126,196,230,183,34,244,134,219,53,152,70,123,90,235,203,93,46,63,29,133,3,81,78,173,29]}}]
+  - Name: MeasurementSystem
+    Id: g=4c8c38a5624d1a023ec1e3f394c70859
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Domain
+    Id: g=2f74195c13f9e58e307a41feea025134
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+  - Class: Reference
+    Type: HasGroup
+    Target: g=69ad3b7b7e970116a71b673070de5cd6
+  - Name: LocaleId
+    Id: g=f6cd55a5c4d110f91c14da33d719a33a
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+  - Name: Language
+    Id: g=237a86c1adb7a62ea0362b69c5519164
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-CN"
+- Name: User1
+  Id: g=b7f8c33d11416417b48be053b9966b2b
+  Type: UserType
+- Name: User2
+  Id: g=f37ff5a25de9585f59926760f91f0c03
+  Type: UserType

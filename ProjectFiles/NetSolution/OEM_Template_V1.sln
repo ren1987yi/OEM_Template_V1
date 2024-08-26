@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEM_Template_V1", "OEM_Template_V1.csproj", "{77601539-47CC-46DC-6973-BBDF7F71AD22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteWebServer", "..\..\..\..\..\code\csharp\LiteWebServerRepo\LiteWebServer\LiteWebServer.csproj", "{40B8AECD-0C98-472B-B271-01785B4C5F34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77601539-47CC-46DC-6973-BBDF7F71AD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77601539-47CC-46DC-6973-BBDF7F71AD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77601539-47CC-46DC-6973-BBDF7F71AD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77601539-47CC-46DC-6973-BBDF7F71AD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B8AECD-0C98-472B-B271-01785B4C5F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B8AECD-0C98-472B-B271-01785B4C5F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B8AECD-0C98-472B-B271-01785B4C5F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B8AECD-0C98-472B-B271-01785B4C5F34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {341CA1BD-B157-4337-981E-5C1D3CB6FDDB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,200 @@
+Name: DigitalAlarms
+Id: g=3e93e99ba6b562460b9a19ca270c1a1f
+Type: FolderType
+Children:
+- Name: ALM1
+  Id: g=f63f2a0b093d55151fe5c7912519481e
+  Type: DigitalAlarmDefaultType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=0a1f49ebc614558829a3eadfcf12884f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=145b47b08c130f15a9594c5a84a5c10f
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e444db27629cd45d8e7be4949e39c366
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/AlarmVariables/a"
+      Children:
+      - Name: Mode
+        Id: g=aec127903f0fe2a860540ee2c3e36876
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=86c1ca2fb4c7d5d4ddace514b0d6c63c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Class
+    Id: g=e4a6c2a545a7c67c589920b0a0a425cc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AA"
+  - Name: Group
+    Id: g=8da4026936b1c86c7e520283bae4c3d6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "A1"
+  - Name: Tag1
+    Id: g=f53b459a881417338aca9f8ca1916e2a
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag2
+    Id: g=5d07c3318385f4aa42acd162216374a2
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag3
+    Id: g=6a2131d5dae990f4300060394fcb792e
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag4
+    Id: g=e3d280d0caacf847c41823560c478e84
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Level
+    Id: g=1fb987f79aad420ed5c633f7d482fb38
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Message
+    Id: g=32fb8c12d9a4afffd6a456abfb8c21a2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"AAAAAAAAAAAAAAAAAAA"}
+  - Name: Severity
+    Id: g=45cffc94ee6e9544aaf47e7692b68e9a
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 100
+  - Name: AutoAcknowledge
+    Id: g=0043f869156c1051190bc395650f27ce
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7206beed19105737fa3de9f8f2410ecf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: ALM2
+  Id: g=13be95d356b406d00992983f618f3201
+  Type: DigitalAlarmDefaultType
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=cbc0e6bc716dba37fc7d8c3968ac1d07
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=1d95a11dc2df9ebeade2861249e15437
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=48c956e03a2a04e48aae2c9aec7bbdeb
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/AlarmVariables/b"
+      Children:
+      - Name: Mode
+        Id: g=ee1196bb1cb3fe48f4b7b70569085251
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=2bf2b65793c9843ca046a4d1c21008f7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Class
+    Id: g=6c6ca7be998c5fd820838f05065b7940
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BB"
+  - Name: Group
+    Id: g=909edf883ef02e91dcaafb39f39067b7
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "B2"
+  - Name: Tag1
+    Id: g=66a266b96fa2f0fdb5bb2419d35005b3
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag2
+    Id: g=039bbbd8d98b4d4f2d9b00705510224f
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag3
+    Id: g=1bc9be347e2c96af1c07932acaec01f0
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Tag4
+    Id: g=95022594b859a05d6f9f74764b2624eb
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Level
+    Id: g=50a2b6db6a12ad0e5e87b398116c0896
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Message
+    Id: g=ae5094aa6e5f153335dee62e57b4d2db
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"BBBBBBBBBBBBBB"}
+  - Name: Severity
+    Id: g=1343d2629643cc5d63dcec1a2db9e4dd
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 500
+  - Name: AutoAcknowledge
+    Id: g=8df3a51b0f444fecc5a7ed3aa25ab61b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=b0b4247ae447acca4f0bdba613a85e3c
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

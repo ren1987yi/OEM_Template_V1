@@ -1,0 +1,67 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: KeyValueConverter1
+  Id: g=a282784a06dd25ea113cc3c56aa5b2d7
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=2;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "aa"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "bb"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "cc"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "dd"

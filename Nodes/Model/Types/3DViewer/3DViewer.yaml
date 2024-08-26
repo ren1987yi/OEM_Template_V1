@@ -1,0 +1,59 @@
+Name: 3DViewer
+Type: FolderType
+Children:
+- Name: GodotServerType
+  Id: g=3f82b28ed121d9d076869ef50aac0a03
+  Supertype: BaseObjectType
+  Children:
+  - Name: DataPool
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Events
+    Type: BaseObjectType
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 49000
+  - Name: Host
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "127.0.0.1"
+  - Name: Url
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: StringFormatter1
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"http://{0}:{1}/index.html"}
+      - Name: ns=2;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Host"
+      - Name: ns=2;Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Port"
