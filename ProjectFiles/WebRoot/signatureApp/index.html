@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/viewer.min.js"></script>
+    <script src="./js/index.umd.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/viewer.css">
+    <title>Smooth-Signature</title>
+</head>
+<body>
+    <div class="pcDemo">
+        <div class="actions">
+          <button onclick="handleClear()">Clear</button>
+          <button onclick="handleUndo()">Undo</button>
+          <button onclick="handlePreview()">View PNG</button>
+          <button onclick="handleColor()">Change Color</button>
+          <button onclick="handleSubmit()">Submit</button>
+        </div>
+       
+        <canvas id="canvas" />
+      </div>
+</body>
+</html>

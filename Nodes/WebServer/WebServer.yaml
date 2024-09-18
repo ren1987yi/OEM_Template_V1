@@ -382,6 +382,15 @@ Children:
   - Class: Reference
     Target: g=852f50435c455cc93715758f56357588
     Direction: Forward
+  - Class: Reference
+    Target: g=a9ca1a40203417d27fa525c77db194c0
+    Direction: Forward
+  - Class: Reference
+    Target: g=9df83a3a7c7b64676beca0a55989c56a
+    Direction: Forward
+  - Class: Reference
+    Target: g=712e187a7563a076d0e9d253280c55d3
+    Direction: Forward
 - Name: FormIOServer
   Type: BasicWebServerHostType
   Children:
@@ -400,3 +409,23 @@ Children:
   - Name: Error
     Type: BaseDataVariableType
     DataType: String
+- Name: SignatureWebServer
+  Type: WebServerType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 49003
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WebRoot/signatureApp"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: SignatureWebServer_RuntimeNetLogic
+    Type: NetLogic

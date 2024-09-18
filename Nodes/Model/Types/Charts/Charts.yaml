@@ -216,6 +216,15 @@ Children:
   - Class: Method
     Name: Test
     Id: g=852f50435c455cc93715758f56357588
+  - Class: Method
+    Name: Test
+    Id: g=a9ca1a40203417d27fa525c77db194c0
+  - Class: Method
+    Name: Test
+    Id: g=9df83a3a7c7b64676beca0a55989c56a
+  - Class: Method
+    Name: Test
+    Id: g=712e187a7563a076d0e9d253280c55d3
 - Name: ChartConfigureType
   Id: g=6e42f26de01b31cb7c0c9abea432bb28
   Supertype: BaseObjectType

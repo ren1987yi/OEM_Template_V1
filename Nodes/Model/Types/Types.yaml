@@ -397,3 +397,21 @@ Children:
   - Name: Error
     Type: BaseDataVariableType
     DataType: String
+- Name: WebServerType
+  Id: g=580455b96e6fe4c7df1f95dfa91397d7
+  Supertype: BaseObjectType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8080
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String
