@@ -15,6 +15,8 @@ using System.Collections.Generic;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.CommunicationDriver;
+using FTOptix.RAEtherNetIP;
+using FTOptix.EventLogger;
 #endregion
 
 public class RecipesEditorUISetup : BaseNetLogic

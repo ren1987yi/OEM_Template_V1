@@ -3,7 +3,7 @@
 <head>
 	<meta charset='utf-8' />
 	<meta name='viewport' content='width=device-width, user-scalable=no' />
-	<title>Machine Demo 1 V 35</title>
+	<title>FTOptixTemplate</title>
 	<style type='text/css'>
 
 		body {
@@ -141,7 +141,7 @@
 	<script type='text/javascript' src='index.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":140707216,"index.wasm":17865444},"focusCanvas":true,"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":2368032,"index.wasm":17865444},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
@@ -228,7 +228,24 @@
                 if(input_id == null){
                     input_id = ""
                 }
+				var input_wshost = new URLSearchParams(window.location.search).get('ws')
+				if(input_wshost == null){
+					input_wshost = ""
+				}
+				var input_bg = new URLSearchParams(window.location.search).get('bg')
+				if(input_bg == null){
+					input_bg = "00000000"
+				}
+				var input_scene = new URLSearchParams(window.location.search).get('scene')
+				if(input_scene == null){
+					input_scene = ""
+				}
 
+				var input_args = [input_id,input_wshost,input_bg,input_scene]
+				
+
+
+				
 				engine.startGame({
 					'onProgress': function (current, total) {
 						if (total > 0) {
@@ -244,7 +261,7 @@
 							setStatusMode('indeterminate');
 						}
 					},
-                    'args':input_id
+                    'args':input_args
 				}).then(() => {
 					setStatusMode('hidden');
 					initializing = false;

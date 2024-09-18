@@ -12,6 +12,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using UAManagedCore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 using OpcUa = UAManagedCore.OpcUa;
 
 #endregion

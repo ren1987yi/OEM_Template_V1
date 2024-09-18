@@ -2,21 +2,34 @@ Name: WebServer
 Type: FolderType
 Children:
 - Name: GodotServer
+  Id: g=64682702af8914eeed58f7022afb682c
   Type: GodotServerType
   Children:
-  - Name: DataPool
-    Type: Alias
-    DataType: NodeId
-    Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
   - Name: RootPath
     Type: BaseDataVariableType
     DataType: String
-    Value: "WebRoot\\GodotApp"
+    Value: "WebRoot/GodotApp"
+  - Name: UpdateNodes
+    Type: BaseObjectType
+    Children:
+    - Name: S1
+      Type: Alias
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Objects/OEM_Template_V1/Model/GodotSimulate"
+    - Name: Robot
+      Type: Alias
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/Robot01"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Objects/OEM_Template_V1/Model/Robot01"
   - Name: Events
     Id: g=7b866ceddaf5247027949c5d874bd604
     Type: BaseObjectType
@@ -24,46 +37,19 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 49000
-  - Name: Host
+  - Class: Reference
+    Target: g=6c5fe866052e8b4e2bf708e2118a4272
+    Direction: Forward
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
     Type: BaseDataVariableType
     DataType: String
-    Value: "127.0.0.1"
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "../../../Model/GlobalModels/HMISetting/IPAddress"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        Value: 2
-  - Name: Url
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
-    Children:
-    - Name: StringFormatter1
-      Type: StringFormatter
-      Children:
-      - Name: Source0
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../Host"
-      - Name: Source1
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../Port"
+  - Class: Reference
+    Target: g=b2f4bb8e43dfb37824a897e1597bc8b3
+    Direction: Forward
 - Name: ChartServer
   Type: ChartServerType
   Children:
@@ -97,6 +83,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Int32
         Value: 5000
+      - Name: ScriptPath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+      - Name: ScriptEnable
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: ActualScriptPath
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: ActualScript
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: SaveTrigger
+        Type: BaseDataVariableType
+        DataType: Boolean
     - Name: 14
       Type: ChartConfigureType
       Children:
@@ -121,10 +122,64 @@ Children:
         Type: BaseDataVariableType
         DataType: Int32
         Value: 5000
+      - Name: ScriptPath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+      - Name: ScriptEnable
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: ActualScriptPath
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: ActualScript
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: SaveTrigger
+        Type: BaseDataVariableType
+        DataType: Boolean
+    - Name: script1
+      Type: ChartConfigureType
+      Children:
+      - Name: Option
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "{\n  \"series\": [\n    {\n      \"name\": \"Script\",\n      \"data\": [ 10, 41, 35, 51, 49, 62, 69, 91, 148 ]\n    }\n  ],\n  \"chart\": {\n    \"height\": 350,\n    \"type\": \"line\",\n    \"zoom\": {\n      \"enabled\": false\n    }\n  },\n  \"dataLabels\": {\n    \"enabled\": false\n  },\n  \"stroke\": {\n    \"curve\": \"straight\"\n  },\n  \"title\": {\n    \"text\": \"\",\n    \"align\": \"left\"\n  },\n  \"grid\": {\n    \"row\": {\n      \"colors\": [ \"#f3f3f3\", \"transparent\" ],\n      \"opacity\": 0.5\n    }\n  },\n  \"xaxis\": {\n    \"categories\": [ \"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\" ]\n  }\n}"
+      - Name: IsActive
+        Type: BaseDataVariableType
+        DataType: Boolean
+      - Name: Data
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: GetDataMethod
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "GetData"
+      - Name: Period
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 5000
+      - Name: ScriptPath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/ex_scripts/chart_script1.cs"
+      - Name: ScriptEnable
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: ActualScriptPath
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: ActualScript
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: SaveTrigger
+        Id: g=cb39b8d542337381a08ebc1066e195dc
+        Type: BaseDataVariableType
+        DataType: Boolean
   - Name: RootPath
     Type: BaseDataVariableType
     DataType: String
-    Value: "D:\\Work\\Optix\\OEM_Template_V1\\ProjectFiles\\WebRoot\\ChartsApp"
+    Value: "WebRoot/ChartsApp"
   - Name: Test
     Type: BaseDataVariableType
     DataType: Boolean
@@ -194,3 +249,154 @@ Children:
   - Class: Reference
     Target: g=16d797b5b628a262cf9028474f845fe7
     Direction: Forward
+  - Class: Reference
+    Target: g=e92aae45e10a1cc905c964272ceeda45
+    Direction: Forward
+  - Class: Reference
+    Target: g=12f839a9c260a03cfc38e73e77fb7ff6
+    Direction: Forward
+  - Class: Reference
+    Target: g=43b90ae849e49668b83c1ad8ded7680f
+    Direction: Forward
+  - Class: Reference
+    Target: g=adbd8b00e00428affbf97cd1625ed531
+    Direction: Forward
+  - Class: Reference
+    Target: g=837946c815eed07f83fc5e0c6590827f
+    Direction: Forward
+  - Class: Reference
+    Target: g=7784feed1489ec9ff3dcdfe958aa10f3
+    Direction: Forward
+  - Class: Reference
+    Target: g=1193c8dc91409ee388c0dcc6305c13a9
+    Direction: Forward
+  - Class: Reference
+    Target: g=e353116e350a71fcb641958d3063273c
+    Direction: Forward
+  - Class: Reference
+    Target: g=b3593bafdb2cdd657ad3bfbaedb49116
+    Direction: Forward
+  - Class: Reference
+    Target: g=fbc14169df55e712393ce1edbcec6dc6
+    Direction: Forward
+  - Class: Reference
+    Target: g=1f71ac08e010c82b1e924b05a8713704
+    Direction: Forward
+  - Class: Reference
+    Target: g=6822c5ba6a04d69b50bfcc2dedd78639
+    Direction: Forward
+  - Class: Reference
+    Target: g=405e793954d9b045857336512c08a053
+    Direction: Forward
+  - Class: Reference
+    Target: g=3008ccf0edd118809f9205827f2d1d81
+    Direction: Forward
+  - Class: Reference
+    Target: g=1e80a9c607067ab7c6376adc418f3bb9
+    Direction: Forward
+  - Class: Reference
+    Target: g=7c24a1872ce21fc455a8dbbe26d58fcb
+    Direction: Forward
+  - Class: Reference
+    Target: g=fadaa8221ef9b60a35892e809ed03bfe
+    Direction: Forward
+  - Class: Reference
+    Target: g=c0cff80753160d264ebb55b2860a143b
+    Direction: Forward
+  - Class: Reference
+    Target: g=11e65d0a75b34073f34e7eb68e193bda
+    Direction: Forward
+  - Class: Reference
+    Target: g=78c06d64055083f24db7a05c8c3f679a
+    Direction: Forward
+  - Class: Reference
+    Target: g=6c03d4f94ecfe1e2db156f17db98cd5e
+    Direction: Forward
+  - Class: Reference
+    Target: g=29fb390172cf62c2d4bc37d037ad149c
+    Direction: Forward
+  - Class: Reference
+    Target: g=db93c4b8e9b4dccba22e656066b07514
+    Direction: Forward
+  - Class: Reference
+    Target: g=5cac93d37b5ac480b13300b526a29c62
+    Direction: Forward
+  - Class: Reference
+    Target: g=46d5372d0d6bc6a4f35e71939b83e3a5
+    Direction: Forward
+  - Class: Reference
+    Target: g=09317f36f9d41e85919fe067de1fc598
+    Direction: Forward
+  - Class: Reference
+    Target: g=cfe31e2a739beb9222eac8d5744d8640
+    Direction: Forward
+  - Class: Reference
+    Target: g=00c2d0233f7f7ccf70d3faa2d15178f6
+    Direction: Forward
+  - Class: Reference
+    Target: g=f741eeb13eb2e7c7fc469c082d0ab0fd
+    Direction: Forward
+  - Class: Reference
+    Target: g=868a5c63bb6331ca53a1b9f789c001c0
+    Direction: Forward
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Class: Reference
+    Target: g=8b502d38021b3346e54abbda0d46be2c
+    Direction: Forward
+  - Class: Reference
+    Target: g=24b4c22685e2ad5f6c83aa373988f7bf
+    Direction: Forward
+  - Class: Reference
+    Target: g=98e81e30511b8abc95b349b6485dedf1
+    Direction: Forward
+  - Class: Reference
+    Target: g=de4b7f73aec3d3e7f9705ed88f5c7786
+    Direction: Forward
+  - Class: Reference
+    Target: g=e61f0811dc7f21488a709963bd4340e6
+    Direction: Forward
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Target: g=586c96220747e5222af4f22d86323f11
+    Direction: Forward
+  - Class: Reference
+    Target: g=2ea64a5f71c0f752c77d6524dfff907c
+    Direction: Forward
+  - Class: Reference
+    Target: g=8450f7c67a6a213ae29f967a293c60f6
+    Direction: Forward
+  - Class: Reference
+    Target: g=fe8dbbd8ba3f4e6b9683576f9ffd7131
+    Direction: Forward
+  - Class: Reference
+    Target: g=51c9cc74e3bec9f02d3348217dc0852b
+    Direction: Forward
+  - Class: Reference
+    Target: g=ff324098ba7fb56f26d835459a90d710
+    Direction: Forward
+  - Class: Reference
+    Target: g=852f50435c455cc93715758f56357588
+    Direction: Forward
+- Name: FormIOServer
+  Type: BasicWebServerHostType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 49002
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WebRoot/formioApp"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String

@@ -16,7 +16,9 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GCOptixToolkit" Version="0.0.1-alpha"/>
+    <PackageReference Include="DotNetWebServer" Version="0.0.1.1-alpha"/>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.1"/>
+    <PackageReference Include="VisualScriptOptix" Version="0.0.1-beta"/>
   </ItemGroup>
   <Import Project="OEM_Template_V1.references"/>
 </Project>

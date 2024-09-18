@@ -105,16 +105,40 @@ Project:
    Uri: 'urn:FTOptix:SQLiteStore:Net'
    Module: FTOptix.SQLiteStore.Net
    Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.1
+  28:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 2.1
+  29:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 3.0
+  30:
+   Uri: 'urn:FTOptix:RAEtherNetIP:Net'
+   Module: FTOptix.RAEtherNetIP.Net
+   Version: 2.1
+  31:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  32:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 26262
-  Objects: 3921
-  ObjectTypes: 84
-  Variables: 22180
-  VariableTypes: 0
-  DataTypes: 0
-  Methods: 77
-  References: 232
+  TotalNodeCount: 56393
+  Objects: 5589
+  ObjectTypes: 132
+  Variables: 50501
+  VariableTypes: 13
+  DataTypes: 13
+  Methods: 145
+  References: 366
   ReferenceTypes: 0
-  Files: 58
+  Files: 77
  Nodes:
  - File: Nodes/OEM_Template_V1.yaml

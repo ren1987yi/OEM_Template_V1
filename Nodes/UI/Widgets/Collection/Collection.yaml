@@ -1,0 +1,72 @@
+Name: Collection
+Type: FolderType
+Children:
+- Name: VerticalLayout_Collection
+  Id: g=c960d7c1b263ffc9109b5e50ba0085e4
+  Supertype: ColumnLayout
+  Description: {"LocaleId":"en-US","Text":"根据Object children 和 UI Mapper 填充容器"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 200.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: -1.0
+  - Name: Collection_RuntimeNetLogic
+    Type: NetLogic
+  - Name: Model
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: UITypeConverter
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+      Value: 2
+- Name: HorizontalLayout_Collection
+  Id: g=ef0cf5f1aca18e392bf8b11d13968f93
+  Supertype: RowLayout
+  Description: {"LocaleId":"en-US","Text":"根据Object children 和 UI Mapper 填充容器"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 50.0
+  - Name: Collection_RuntimeNetLogic
+    Type: NetLogic
+  - Name: Model
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: UITypeConverter
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId

@@ -17,6 +17,9 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using System.Linq;
 using System.Collections.Generic;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class UserGroupManagement_RuntimeNetLogic : BaseNetLogic

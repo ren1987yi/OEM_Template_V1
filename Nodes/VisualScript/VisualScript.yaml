@@ -1,0 +1,5 @@
+Name: VisualScript
+Type: FolderType
+Children:
+- File: UI/UI.yaml
+- File: ModelType/ModelType.yaml

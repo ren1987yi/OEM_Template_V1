@@ -18,6 +18,9 @@ using FTOptix.Core;
 using GCOptixToolkit;
 using System.IO;
 using OEM_Template_V1;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class SQLiteManagment_RuntimeNetLogic : BaseNetLogic

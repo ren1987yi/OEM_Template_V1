@@ -21,6 +21,9 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Diagnostics.Contracts;
 using System.Linq;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 public class FileExplorer_RuntimeNetLogic : BaseNetLogic
 {
     IUANode nInfos;

@@ -98,3 +98,4 @@ Children:
     Type: PropertyType
     DataType: NodeId
 - File: WebServer/WebServer.yaml
+- File: VisualScript/VisualScript.yaml

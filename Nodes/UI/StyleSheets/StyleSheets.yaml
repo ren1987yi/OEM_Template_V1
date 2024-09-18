@@ -533,6 +533,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#3b3b3b00"
+    - Name: Circle
+      Type: ButtonStyle
+      Children:
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 32.0
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -547,6 +562,17 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#235d9f00"
+    - Name: InputBoxStyle1
+      Type: InputBoxStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:

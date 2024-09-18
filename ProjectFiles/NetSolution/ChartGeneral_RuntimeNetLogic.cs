@@ -15,6 +15,9 @@ using FTOptix.Retentivity;
 using FTOptix.UI;
 using FTOptix.Alarm;
 using FTOptix.Core;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class ChartGeneral_RuntimeNetLogic : BaseNetLogic

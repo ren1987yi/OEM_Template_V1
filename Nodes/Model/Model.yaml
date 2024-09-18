@@ -346,3 +346,374 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Item"
+- Name: Robot01
+  Id: g=f87f66ae049ebdda0ac5d62f9cf94fba
+  Type: BaseObjectType
+  Children:
+  - Name: TCP
+    Type: BaseObjectType
+    Children:
+    - Name: X
+      Id: g=2a84a85b0f2f181c0c3aeac1f8b58884
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"X"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 5066068
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+    - Name: Y
+      Id: g=b8f5aca55919fa596570c7978a010577
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"Y"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 5066068
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+    - Name: Z
+      Id: g=85793907cb09f02b0e1c81683c7fac59
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"Z"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 5066068
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+    - Name: RX
+      Id: g=f419b0c7cb67e7cb4095c85707354c3e
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"RX"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 17476
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+    - Name: RY
+      Id: g=504d1aa6fa031df7e0d89973bbaf09f1
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"RY"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 17476
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+    - Name: RZ
+      Id: g=4fcdb0b4939266f247783f9d696529dd
+      Type: BaseDataVariableType
+      DataType: Float
+      DisplayName: {"LocaleId":"en-US","Text":"RZ"}
+      Children:
+      - Name: ns=0;EngineeringUnits
+        Type: EUInformationType
+        DataType: EUInformation
+        DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+        Children:
+        - Name: UnitId
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: 17476
+        - Name: DisplayName
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+        - Name: Description
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+  - Name: Joints
+    Type: BaseObjectType
+    Children:
+    - Name: Joint1
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=10bcc2c751168817fdd4103e62f47641
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis1"}
+        Value: 90.0
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J1/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Joint2
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=d7668f57fb06d385e51d4e84ffb97387
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis2"}
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J2/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Joint3
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=2f7271a0c6aac7f8afb6f942c7a7d3d2
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis3"}
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J3/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Joint4
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=930882e4743202480045a57ed9dad250
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis4"}
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J4/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Joint5
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=724aea621435db792d80bb47c289bb49
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis5"}
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J5/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2
+    - Name: Joint6
+      Type: BaseObjectType
+      Children:
+      - Name: Angle
+        Id: g=5bd212fefcdf387c4bfe1eaa675a2282
+        Type: BaseDataVariableType
+        DataType: Float
+        DisplayName: {"LocaleId":"en-US","Text":"Axis6"}
+        Children:
+        - Name: ns=0;EngineeringUnits
+          Type: EUInformationType
+          DataType: EUInformation
+          DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+          Children:
+          - Name: UnitId
+            Type: BaseVariableType
+            DataType: Int32
+            ReferenceType: HasProperty
+            Value: 17476
+          - Name: DisplayName
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+          - Name: Description
+            Type: BaseVariableType
+            DataType: LocalizedText
+            ReferenceType: HasProperty
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J6/ActualPosition"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            Value: 2

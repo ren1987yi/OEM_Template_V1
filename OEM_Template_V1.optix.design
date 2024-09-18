@@ -23,15 +23,24 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 3.0
+  7:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 0
-  Objects: 0
+  TotalNodeCount: 4
+  Objects: 1
   ObjectTypes: 0
-  Variables: 0
+  Variables: 3
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 0
   ReferenceTypes: 0
-  Files: 0
- Nodes: []
+  Files: 1
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RA/Robot/TagImporter.yaml

@@ -3,6 +3,9 @@ using System;
 using System.Globalization;
 using FTOptix.NetLogic;
 using UAManagedCore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class CalendarPickerLogic : BaseNetLogic

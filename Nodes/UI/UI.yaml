@@ -170,14 +170,14 @@ Children:
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 10
+    Value: 1
   - Name: AllowedRemoteSources
     Id: g=82e76af44976c0b7232f25f268c03903
     Type: BaseDataVariableType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["http://127.0.0.1:49000/index.html","http://192.168.8.139:49000/index.html","","","","",""]
+    Value: ["http://127.0.0.1:49000/index.html","http://192.168.1.250:49000/index.html","http://127.0.0.1:49001/index.html","http://192.168.1.250:49001/index.html","http://127.0.0.1:49002/builder.html","http://192.168.1.250:49002/builder.html","http://192.168.1.250:49002/builder.html","http://192.168.1.250:49002/builder.html","http://192.168.1.250:49002/builder.html","http://192.168.1.250:49002/builder.html"]
 - File: Screens/Screens.yaml
 - File: StyleSheets/StyleSheets.yaml
 - File: Widgets/Widgets.yaml

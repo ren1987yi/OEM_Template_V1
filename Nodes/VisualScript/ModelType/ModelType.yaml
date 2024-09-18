@@ -1,0 +1,861 @@
+Name: ModelType
+Type: FolderType
+Children:
+- Name: VisualScriptEngineType
+  Id: g=b56a1a86c8d5410b451ba48e2ba5940b
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"实际执行WORKFLOW的引擎实例"}
+  Children:
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: NodeModels
+    Type: BaseObjectType
+  - Name: Content
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Variables
+    Type: BaseObjectType
+  - Name: IsLoop
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LoopCount
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: ActiveLoopCount
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "65386d48f2323f5679f8ea4cddf23bc6",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: VisualScriptHostType
+  Id: g=59d103fdae3e3db21b6f1ce94c3212dc
+  Supertype: BaseObjectType
+  Children:
+  - Name: Engines
+    Type: BaseObjectType
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: AutoStart
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Method
+    Name: CreateWorkflowInstance
+    Id: g=faf8cf9f2d42112a2249230fc860aff8
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"content","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+    - Name: ns=0;OutputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"success","DataType":{"Id":1},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"message","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: EngineModelType
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScriptEngineType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Class: Method
+    Name: StartWorkflowInstance
+    Id: g=c48fee9e22be5bc2082b3db706923d58
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"nodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: StopWorkflowInstance
+    Id: g=5ccbcdd4512f7ad85f6c2e5efbcbfa8e
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"nodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: NodeModelType
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScriptOptixNodeType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Class: Method
+    Name: ResetWorkflowInstance
+    Id: g=167c1a4a5e0d75739ef7ec856aed4c9e
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"nodeId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "14e6b73da62463410cab331944de7e69",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+  - Name: EMs
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+- Name: VisualScriptOptix_EM_ModelType
+  Id: g=2a09d5a57233ab0a538718f658c368ab
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Interface
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: InputFloats
+    Type: BaseObjectType
+    Children:
+    - Name: V1
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V2
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V3
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V4
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V5
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V6
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V7
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V8
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V9
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V10
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+  - Name: InputBools
+    Type: BaseObjectType
+    Children:
+    - Name: V1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V3
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V4
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V5
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V6
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V7
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V8
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V9
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V10
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+  - Name: OutputFloats
+    Type: BaseObjectType
+    Children:
+    - Name: V1
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V2
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V3
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V4
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V5
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V6
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V7
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V8
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V9
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V10
+      Type: AnalogItemType
+      DataType: Float
+      Children:
+      - Name: EURange
+        Type: RangeType
+        DataType: Range
+        Children:
+        - Name: Low
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+        - Name: High
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+  - Name: OutputBools
+    Type: BaseObjectType
+    Children:
+    - Name: V1
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V3
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V4
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V5
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V6
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V7
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V8
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V9
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+    - Name: V10
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Children:
+      - Name: Name
+        Type: BaseDataVariableType
+        DataType: String
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: VisualScriptOptix_EM_ModelType_RuntimeNetLogic
+    Type: NetLogic
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "d427f0f672efd0d153c786de8edbda0f",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: VisualScriptOptix_InterfaceMapperType
+  Id: g=b8d1ce3f4317d80c074f1dbb11ccd020
+  Supertype: BaseObjectType
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Target
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "36e89da3e60180a81d35b9efd33a307a",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: VisualScriptOptixNodeType
+  Id: g=487ed48a7e9c6edbca27d9804fd4c5a2
+  Supertype: BaseObjectType
+  Children:
+  - Name: TypeName
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Parameters
+    Type: BaseObjectType
+  - Name: InputPorts
+    Type: BaseObjectType
+  - Name: OutputPorts
+    Type: BaseObjectType
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Id
+    Type: BaseDataVariableType
+    DataType: Guid
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Comment
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    ModellingRule: None
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "f1b5f46c9c8e3e5abc3b17d6f548e78d",
+       "objectVersion": 2,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: VisualScriptHost
+  Id: g=ad00e4d7563cf5613d809c5b3c8a1bfa
+  Type: VisualScriptHostType
+  Children:
+  - Name: Engines
+    Type: BaseObjectType
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ErrorMessage
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: AutoStart
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Reference
+    Target: g=faf8cf9f2d42112a2249230fc860aff8
+    Direction: Forward
+  - Name: EngineModelType
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScriptEngineType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Class: Reference
+    Target: g=c48fee9e22be5bc2082b3db706923d58
+    Direction: Forward
+  - Class: Reference
+    Target: g=5ccbcdd4512f7ad85f6c2e5efbcbfa8e
+    Direction: Forward
+  - Name: NodeModelType
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScriptOptixNodeType"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Class: Reference
+    Target: g=167c1a4a5e0d75739ef7ec856aed4c9e
+    Direction: Forward
+  - Name: EMs
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScript_EMs"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/VisualScript/ModelType/VisualScript_EMs"
+- Name: VisualScript_EMs
+  Id: g=3acffce5212cda300d44140d385cf4dd
+  Type: BaseObjectType

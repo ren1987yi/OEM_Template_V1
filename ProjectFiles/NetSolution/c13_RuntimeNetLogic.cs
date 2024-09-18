@@ -18,6 +18,9 @@ using FTOptix.Core;
 using OptixWebServer.Charts;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class c13_RuntimeNetLogic : WebChartHandle
@@ -36,7 +39,7 @@ public class c13_RuntimeNetLogic : WebChartHandle
     Random rnd = new Random();
     public override void GetData(string query,out string result)
     {
-        Log.Info(Owner.BrowseName);
+        Log.Info("chart get data", Owner.BrowseName);
         var mm = Convert.ToInt32(query);
 
         var ss = new List<int>();

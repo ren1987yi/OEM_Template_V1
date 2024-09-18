@@ -5,55 +5,44 @@ Children:
   Id: g=3f82b28ed121d9d076869ef50aac0a03
   Supertype: BaseObjectType
   Children:
-  - Name: DataPool
-    Type: Alias
-    DataType: NodeId
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
   - Name: RootPath
     Type: BaseDataVariableType
     DataType: String
+  - Name: UpdateNodes
+    Type: BaseObjectType
   - Name: Events
     Type: BaseObjectType
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 49000
-  - Name: Host
+  - Class: Method
+    Name: ChangeCamIndex
+    Id: g=6c5fe866052e8b4e2bf708e2118a4272
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"viewid","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"camidx","DataType":{"Id":6},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
     Type: BaseDataVariableType
     DataType: String
     Value: "127.0.0.1"
-  - Name: Url
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
+  - Class: Method
+    Name: ChangeSceneName
+    Id: g=b2f4bb8e43dfb37824a897e1597bc8b3
     Children:
-    - Name: StringFormatter1
-      Type: StringFormatter
-      Children:
-      - Name: Format
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ReferenceType: HasParameter
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"http://{0}:{1}/index.html"}
-      - Name: ns=2;Source0
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../Host"
-      - Name: ns=2;Source1
-        Type: BaseDataVariableType
-        DataType: BaseDataType
-        ReferenceType: HasSource
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../../Port"
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"viewid","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"name","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

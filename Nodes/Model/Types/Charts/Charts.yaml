@@ -83,6 +83,139 @@ Children:
   - Class: Method
     Name: Test
     Id: g=16d797b5b628a262cf9028474f845fe7
+  - Class: Method
+    Name: Test
+    Id: g=e92aae45e10a1cc905c964272ceeda45
+  - Class: Method
+    Name: Test
+    Id: g=12f839a9c260a03cfc38e73e77fb7ff6
+  - Class: Method
+    Name: Test
+    Id: g=43b90ae849e49668b83c1ad8ded7680f
+  - Class: Method
+    Name: Test
+    Id: g=adbd8b00e00428affbf97cd1625ed531
+  - Class: Method
+    Name: Test
+    Id: g=837946c815eed07f83fc5e0c6590827f
+  - Class: Method
+    Name: Test
+    Id: g=7784feed1489ec9ff3dcdfe958aa10f3
+  - Class: Method
+    Name: Test
+    Id: g=1193c8dc91409ee388c0dcc6305c13a9
+  - Class: Method
+    Name: Test
+    Id: g=e353116e350a71fcb641958d3063273c
+  - Class: Method
+    Name: Test
+    Id: g=b3593bafdb2cdd657ad3bfbaedb49116
+  - Class: Method
+    Name: Test
+    Id: g=fbc14169df55e712393ce1edbcec6dc6
+  - Class: Method
+    Name: Test
+    Id: g=1f71ac08e010c82b1e924b05a8713704
+  - Class: Method
+    Name: Test
+    Id: g=6822c5ba6a04d69b50bfcc2dedd78639
+  - Class: Method
+    Name: Test
+    Id: g=405e793954d9b045857336512c08a053
+  - Class: Method
+    Name: Test
+    Id: g=3008ccf0edd118809f9205827f2d1d81
+  - Class: Method
+    Name: Test
+    Id: g=1e80a9c607067ab7c6376adc418f3bb9
+  - Class: Method
+    Name: Test
+    Id: g=7c24a1872ce21fc455a8dbbe26d58fcb
+  - Class: Method
+    Name: Test
+    Id: g=fadaa8221ef9b60a35892e809ed03bfe
+  - Class: Method
+    Name: Test
+    Id: g=c0cff80753160d264ebb55b2860a143b
+  - Class: Method
+    Name: Test
+    Id: g=11e65d0a75b34073f34e7eb68e193bda
+  - Class: Method
+    Name: Test
+    Id: g=78c06d64055083f24db7a05c8c3f679a
+  - Class: Method
+    Name: Test
+    Id: g=6c03d4f94ecfe1e2db156f17db98cd5e
+  - Class: Method
+    Name: Test
+    Id: g=29fb390172cf62c2d4bc37d037ad149c
+  - Class: Method
+    Name: Test
+    Id: g=db93c4b8e9b4dccba22e656066b07514
+  - Class: Method
+    Name: Test
+    Id: g=5cac93d37b5ac480b13300b526a29c62
+  - Class: Method
+    Name: Test
+    Id: g=46d5372d0d6bc6a4f35e71939b83e3a5
+  - Class: Method
+    Name: Test
+    Id: g=09317f36f9d41e85919fe067de1fc598
+  - Class: Method
+    Name: Test
+    Id: g=cfe31e2a739beb9222eac8d5744d8640
+  - Class: Method
+    Name: Test
+    Id: g=00c2d0233f7f7ccf70d3faa2d15178f6
+  - Class: Method
+    Name: Test
+    Id: g=f741eeb13eb2e7c7fc469c082d0ab0fd
+  - Class: Method
+    Name: Test
+    Id: g=868a5c63bb6331ca53a1b9f789c001c0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Class: Method
+    Name: Test
+    Id: g=8b502d38021b3346e54abbda0d46be2c
+  - Class: Method
+    Name: Test
+    Id: g=24b4c22685e2ad5f6c83aa373988f7bf
+  - Class: Method
+    Name: Test
+    Id: g=98e81e30511b8abc95b349b6485dedf1
+  - Class: Method
+    Name: Test
+    Id: g=de4b7f73aec3d3e7f9705ed88f5c7786
+  - Class: Method
+    Name: Test
+    Id: g=e61f0811dc7f21488a709963bd4340e6
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Method
+    Name: Test
+    Id: g=586c96220747e5222af4f22d86323f11
+  - Class: Method
+    Name: Test
+    Id: g=2ea64a5f71c0f752c77d6524dfff907c
+  - Class: Method
+    Name: Test
+    Id: g=8450f7c67a6a213ae29f967a293c60f6
+  - Class: Method
+    Name: Test
+    Id: g=fe8dbbd8ba3f4e6b9683576f9ffd7131
+  - Class: Method
+    Name: Test
+    Id: g=51c9cc74e3bec9f02d3348217dc0852b
+  - Class: Method
+    Name: Test
+    Id: g=ff324098ba7fb56f26d835459a90d710
+  - Class: Method
+    Name: Test
+    Id: g=852f50435c455cc93715758f56357588
 - Name: ChartConfigureType
   Id: g=6e42f26de01b31cb7c0c9abea432bb28
   Supertype: BaseObjectType
@@ -105,5 +238,20 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 5000
+  - Name: ScriptPath
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: ScriptEnable
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ActualScriptPath
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: ActualScript
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: SaveTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean
 - Name: WebChartHandle
   Type: NetLogic

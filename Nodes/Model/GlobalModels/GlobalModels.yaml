@@ -19,12 +19,12 @@ Children:
     Id: g=601793a258c7cd2f29da62baf9766d29
     Type: BaseDataVariableType
     DataType: String
-    Value: "127.0.0.1"
+    Value: "192.168.1.250"
   - Name: GodotHost
     Id: g=058513afee254b76a95c491a50008a50
     Type: BaseDataVariableType
     DataType: String
-    Value: "http://127.0.0.1:49000/index.html"
+    Value: "http://192.168.1.250:49000/index.html"
   - Name: AllowRemoteSource0
     Id: g=58e61d9b2654caf51464ae7c11bd16d2
     Type: BaseDataVariableType
@@ -126,3 +126,88 @@ Children:
       DataType: NodeId
   - Name: LockHost_RuntimeNetLogic
     Type: NetLogic
+- Name: ComputerPerformance
+  Type: ComputerPerformanceType
+  Children:
+  - Name: CPU
+    Id: g=6155133cc6896e922ec43472270b715a
+    Type: BaseObjectType
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Utilization
+      Type: BaseDataVariableType
+      DataType: Float
+  - Name: Memory
+    Id: g=8fc36668fc914625e5b5d0056f2ba4c6
+    Type: BaseObjectType
+    Children:
+    - Name: Available
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 1.0
+    - Name: InUse
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Persent
+      Type: BaseDataVariableType
+      DataType: Float
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../InUse"
+        - Name: Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Available"
+  - Name: Disk
+    Id: g=cd9d76218d0c6cf603ae3703bccd99bf
+    Type: BaseObjectType
+    Children:
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 1.0
+    - Name: InUse
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Persent
+      Type: BaseDataVariableType
+      DataType: Float
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../InUse"
+        - Name: Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Capacity"

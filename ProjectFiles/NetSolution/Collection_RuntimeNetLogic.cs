@@ -17,6 +17,9 @@ using FTOptix.CoreBase;
 using FTOptix.Core;
 using System.Collections.Generic;
 using System.Linq;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class Collection_RuntimeNetLogic : BaseNetLogic

@@ -124,7 +124,7 @@ window.onload = async () => {
         }catch{
             period = -1;
         }
-        apiAdr = url.protocol + url.hostname + ":" + url.port + "/" + "Chart/";
+        apiAdr = url.protocol + "//" + url.hostname + ":" + url.port + "/" + "Chart/";
 
         return {
             host:url.hostname,

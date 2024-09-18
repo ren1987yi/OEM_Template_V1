@@ -123,6 +123,16 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 2
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 14.0
+        - Name: FontWeight
+          Type: BaseDataVariableType
+          DataType: FontWeightEnum
+          ModellingRule: Optional
+          Value: 950
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

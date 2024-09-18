@@ -1,0 +1,4 @@
+Name: RA
+Type: RAEtherNetIPDriver
+Children:
+- File: Robot/Robot.yaml

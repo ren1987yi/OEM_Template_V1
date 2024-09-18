@@ -17,6 +17,9 @@ using FTOptix.Alarm;
 using FTOptix.Core;
 using OEM_Template_V1;
 using System.Linq;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class Dialog_AddOrUpdateUser_RuntimeNetLogic : BaseNetLogic

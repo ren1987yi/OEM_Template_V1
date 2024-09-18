@@ -1,2 +1,4 @@
 Name: CommDrivers
 Type: CommDriversCategoryFolder
+Children:
+- File: RA/RA.yaml

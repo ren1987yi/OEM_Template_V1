@@ -16,6 +16,9 @@ using FTOptix.UI;
 using FTOptix.Alarm;
 using FTOptix.Core;
 using GCOptixToolkit;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class WebChartHandle : BaseNetLogic
@@ -27,7 +30,10 @@ public class WebChartHandle : BaseNetLogic
     public override void Start()
     {
         // Insert code to be executed when the user-defined logic is started
-        
+        //if(Owner == null || Owner.GetType() == typeof(ChartConfigureType))
+        //{
+        //    return;
+        //}
         vActive = Owner.GetVariable("IsActive");
         vPeriod = Owner.GetVariable("Period");
         vData= Owner.GetVariable("Data");
@@ -40,6 +46,10 @@ public class WebChartHandle : BaseNetLogic
         {
             taskRefresh = new PeriodicTask(ActiveRefreshData, vPeriod.Value, LogicObject);
             taskRefresh.Start();
+            Log.Info("WebChartHandle", "timer on");
+        }else
+        {
+            Log.Info("WebChartHandle", "timer off");
         }
 
     }
@@ -51,6 +61,7 @@ public class WebChartHandle : BaseNetLogic
         {
 
             taskRefresh.Cancel();
+            taskRefresh.Dispose();
             taskRefresh = null;
         }
     }

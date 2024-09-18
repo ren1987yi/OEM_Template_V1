@@ -110,8 +110,26 @@ Children:
   - Name: HitTestVisible
     Type: BaseDataVariableType
     DataType: Boolean
-    ModellingRule: Optional
     Value: true
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "!{0}"
+      - Name: ns=2;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Model/IsActived"
   - Name: NormalColor
     Type: BaseDataVariableType
     DataType: Color
@@ -340,8 +358,26 @@ Children:
   - Name: HitTestVisible
     Type: BaseDataVariableType
     DataType: Boolean
-    ModellingRule: Optional
     Value: true
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "!{0}"
+      - Name: ns=2;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Model/IsActived"
   - Name: NormalColor
     Type: BaseDataVariableType
     DataType: Color
@@ -671,6 +707,11 @@ Children:
         DataType: Font
         ModellingRule: Optional
         Value: "OPPOSans H"
+      - Name: WordWrap
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

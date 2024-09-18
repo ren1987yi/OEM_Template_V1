@@ -19,6 +19,9 @@ using OEM_Template_V1;
 using System.Linq;
 using System.Reflection;
 using System.ComponentModel;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class TreeView_RuntimeNetLogic : BaseNetLogic

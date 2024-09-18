@@ -6193,3 +6193,119 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "RecipeDB"
+- Name: VisualScriptDB
+  Id: g=4486b20d3ac4a624b5077844db845a99
+  Type: SQLiteStore
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=59
+    Direction: Forward
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Workflows
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: EditDateTime
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Content
+          Type: StoreColumn
+          DataType: String
+        - Name: Version
+          Type: StoreColumn
+          DataType: UInt32
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "VisualScriptDB"
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "3cb17e64ef4cf1bdd94a679b2660ec6e",
+       "objectGuid": "733aabe8cec59ce716035243ccdfa243",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

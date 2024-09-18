@@ -70,6 +70,116 @@ Children:
     Type: BaseVariableType
     DataType: Boolean
     AccessLevel: Read
+  - Name: DefaultSession_RuntimeNetLogic
+    Type: NetLogic
+    Children:
+    - Class: Method
+      Name: OnUserEvent_Handle
+      Children:
+      - Name: ns=0;InputArguments
+        Type: BaseVariableType
+        DataType: Argument
+        ReferenceType: HasProperty
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [{"TypeId":{"Id":296},"Body":{"Name":"userId","DataType":{"Id":17},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: UserSessionEventHandler1
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/AuditEventType/UserSessionEvent"
+    - Name: MethodsToCall
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Type: BaseObjectType
+        Children:
+        - Name: ns=2;ObjectPointer
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../DefaultSession_RuntimeNetLogic@NodeId"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: ns=2;Method
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OnUserEvent_Handle"
+        - Name: InputArguments
+          Type: BaseObjectType
+          Children:
+          - Name: userId
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../User@Pointer"
+    - Name: EventArguments
+      Type: UserSessionEvent
+      Children:
+      - Name: Username
+        Type: PropertyType
+        DataType: String
+      - Name: UserId
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SessionId
+        Type: PropertyType
+        DataType: NodeId
+      - Name: ActionTimeStamp
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Status
+        Type: PropertyType
+        DataType: Boolean
+      - Name: ServerId
+        Type: PropertyType
+        DataType: String
+      - Name: ClientAuditEntryId
+        Type: PropertyType
+        DataType: String
+      - Name: ClientUserId
+        Type: PropertyType
+        DataType: String
+      - Name: EventId
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Type: PropertyType
+        DataType: UInt16
 - Name: HMISettingType
   Id: g=48aaacf18613273cdda5120d27d30e76
   Supertype: BaseObjectType
@@ -173,3 +283,117 @@ Children:
     DataType: LocalizedText
 - File: Charts/Charts.yaml
 - File: 3DViewer/3DViewer.yaml
+- Name: ComputerPerformanceType
+  Id: g=574f6f85aca7cb4a704c22f04bab5ec0
+  Supertype: BaseObjectType
+  Children:
+  - Name: CPU
+    Id: g=9652f88bca85f6abe65252080249f1bb
+    Type: BaseObjectType
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Utilization
+      Type: BaseDataVariableType
+      DataType: Float
+  - Name: Memory
+    Type: BaseObjectType
+    Children:
+    - Name: Available
+      Type: BaseDataVariableType
+      DataType: Float
+      Description: {"LocaleId":"en-US","Text":"GB"}
+    - Name: InUse
+      Type: BaseDataVariableType
+      DataType: Float
+      Description: {"LocaleId":"en-US","Text":"GB"}
+    - Name: Persent
+      Type: BaseDataVariableType
+      DataType: Float
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: "{0}/{1}*100"
+        - Name: ns=2;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../InUse"
+        - Name: ns=2;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Available"
+  - Name: Disk
+    Type: BaseObjectType
+    Children:
+    - Name: Capacity
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: InUse
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Persent
+      Type: BaseDataVariableType
+      DataType: Float
+      Children:
+      - Name: ExpressionEvaluator1
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Expression
+          Type: BaseDataVariableType
+          DataType: String
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: "{0}/{1}*100"
+        - Name: ns=2;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../InUse"
+        - Name: ns=2;Source1
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../Capacity"
+- Name: BasicWebServerHostType
+  Id: g=301dae9b380881a06731a3fc18be3613
+  Supertype: BaseObjectType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 8080
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String

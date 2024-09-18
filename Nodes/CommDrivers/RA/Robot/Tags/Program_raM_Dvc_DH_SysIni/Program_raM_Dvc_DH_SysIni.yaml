@@ -1,0 +1,111 @@
+Name: 'Program:raM_Dvc_DH_SysIni'
+Type: FolderType
+Children:
+- Name: Cfg_GHIDAssignment
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_DH_SysIni.Cfg_GHIDAssignment"
+- Name: Cfg_GHIDBase
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_DH_SysIni.Cfg_GHIDBase"
+- Name: Inf_MajorFaultRecord
+  Type: raC_UDT_ControllerFaultRecord
+  DataType: raC_UDT_ControllerFaultRecord
+  Children:
+  - Name: Code
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Inf_MajorFaultRecord.Code"
+  - Name: Info
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Inf_MajorFaultRecord.Info"
+  - Name: TimeHigh
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Inf_MajorFaultRecord.TimeHigh"
+  - Name: TimeLow
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Inf_MajorFaultRecord.TimeLow"
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Inf_MajorFaultRecord.Type"
+- Name: Wrk_MajorFaultRecord
+  Type: raC_UDT_ControllerFaultRecord
+  DataType: raC_UDT_ControllerFaultRecord
+  Children:
+  - Name: Code
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Wrk_MajorFaultRecord.Code"
+  - Name: Info
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Wrk_MajorFaultRecord.Info"
+  - Name: TimeHigh
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Wrk_MajorFaultRecord.TimeHigh"
+  - Name: TimeLow
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Wrk_MajorFaultRecord.TimeLow"
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Dvc_DH_SysIni.Wrk_MajorFaultRecord.Type"

@@ -16,6 +16,9 @@ using FTOptix.Alarm;
 using FTOptix.CoreBase;
 using FTOptix.Core;
 using System.Linq;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class DesignTimeNetLogic1 : BaseNetLogic

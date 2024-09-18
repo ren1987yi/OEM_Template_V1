@@ -16,6 +16,9 @@ using FTOptix.UI;
 using FTOptix.Alarm;
 using FTOptix.Core;
 using GCOptixToolkit;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class LockHost_RuntimeNetLogic : BaseNetLogic

@@ -1,0 +1,107 @@
+Name: Godot
+Type: FolderType
+Children:
+- Name: GodotViewer
+  Id: g=48d2fc06f0a45b8b99b3230ea09c91b2
+  Supertype: WebBrowser
+  ReferenceType: HasComponent
+  Children:
+  - Name: URL
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Class: Reference
+    Target: ns=3;i=354
+    Direction: Forward
+  - Class: Reference
+    Target: ns=3;i=356
+    Direction: Forward
+  - Class: Reference
+    Target: ns=3;i=358
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: GodotWebBrowser_RuntimeLogic
+    Type: NetLogic
+  - Name: Root
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "http://127.0.0.1:49000/index.html"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/OEM_Template_V1/Model/GlobalModels/HMISetting/GodotHost"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: GodotEvents
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/WebServer/GodotServer/Events"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/WebServer/GodotServer/Events"
+  - Name: NewEventTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: EventType
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: EventSubType
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EventSourceObject
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EventArgs0
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EventArgs1
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EventArgs2
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EventArgs3
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: IncognitoMode
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: CamIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: GodotServer
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/WebServer/GodotServer"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/OEM_Template_V1/Model/Types/3DViewer/GodotServerType"
+  - Name: SceneIndex
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Background
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "f1f4f6"
+  - Name: SceneName
+    Type: BaseDataVariableType
+    DataType: String

@@ -16,6 +16,9 @@ using FTOptix.Alarm;
 using FTOptix.CoreBase;
 using FTOptix.Core;
 using System.Diagnostics;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 #endregion
 
 public class RecipeEditorGeneral_RuntimeNetLogic : BaseNetLogic

@@ -8,6 +8,9 @@ using FTOptix.Alarm;
 using FTOptix.Recipe;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
+using FTOptix.EventLogger;
 
 #endregion
 

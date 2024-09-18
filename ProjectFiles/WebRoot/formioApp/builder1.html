@@ -1,0 +1,68 @@
+<html></html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.form.io/formiojs/formio.full.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
+  </head>
+  <body>
+    <div id="builder"></div>
+    <script type="text/javascript">
+     Formio.builder(document.getElementById('builder'), {}, {
+    builder: {
+        custom: {
+            title: 'Pre-Defined Fields',
+            weight: 10,
+            components: {
+                firstName: {
+                    title: 'First Name',
+                    key: 'firstName',
+                    icon: 'terminal',
+                    schema: {
+                        label: 'First Name',
+                        type: 'textfield',
+                        key: 'firstName',
+                        input: true
+                    }
+                },
+                lastName: {
+                    title: 'Last Name',
+                    key: 'lastName',
+                    icon: 'terminal',
+                    schema: {
+                      label: 'Last Name',
+                      type: 'textfield',
+                      key: 'lastName',
+                      input: true
+                    }
+                },
+                email: {
+                    title: 'Email',
+                    key: 'email',
+                    icon: 'at',
+                    schema: {
+                        label: 'Email',
+                        type: 'email',
+                        key: 'email',
+                        input: true
+                    }
+                },
+                phoneNumber: {
+                    title: 'Mobile Phone',
+                    key: 'mobilePhone',
+                    icon: 'phone-square',
+                    schema: {
+                        label: 'Mobile Phone',
+                        type: 'phoneNumber',
+                        key: 'mobilePhone',
+                        input: true
+                    }
+                }
+            }
+        }
+    }
+});
+    </script>
+  </body>
+</html>
