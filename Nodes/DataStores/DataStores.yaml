@@ -6309,3 +6309,132 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+- Name: FormIODB
+  Id: g=27137881ba99784741f9728b62f36242
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: FormSchemas
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: String
+        - Name: name
+          Type: StoreColumn
+          DataType: String
+        - Name: schema
+          Type: StoreColumn
+          DataType: String
+    - Name: FormSubmissions
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=21;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=21;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: id
+          Type: StoreColumn
+          DataType: String
+        - Name: data
+          Type: StoreColumn
+          DataType: String
+        - Name: schema_id
+          Type: StoreColumn
+          DataType: String
+        - Name: localtime
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: timestamp
+          Type: StoreColumn
+          DataType: DateTime
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=21;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "formid_db"

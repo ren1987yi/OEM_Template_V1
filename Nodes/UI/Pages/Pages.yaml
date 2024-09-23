@@ -9336,7 +9336,7 @@ Children:
           - Name: Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=7;%PROJECTDIR%/Images/Icons/MdiScriptTextOutline.svg"
+            Value: "ns=7;%PROJECTDIR%/Images/Icons/GravityUiNodesRight.svg"
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -9632,7 +9632,7 @@ Children:
           - Name: Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=7;%PROJECTDIR%/Images/Icons/MdiScriptTextOutline.svg"
+            Value: "ns=7;%PROJECTDIR%/Images/Icons/IconParkOutlineFormOne.svg"
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -9928,7 +9928,7 @@ Children:
           - Name: Icon
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=7;%PROJECTDIR%/Images/Icons/MdiScriptTextOutline.svg"
+            Value: "ns=7;%PROJECTDIR%/Images/Icons/Fa6SolidSignature.svg"
           - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText

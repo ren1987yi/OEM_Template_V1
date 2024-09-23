@@ -391,24 +391,9 @@ Children:
   - Class: Reference
     Target: g=712e187a7563a076d0e9d253280c55d3
     Direction: Forward
-- Name: FormIOServer
-  Type: BasicWebServerHostType
-  Children:
-  - Name: Port
-    Type: BaseDataVariableType
-    DataType: Int32
-    Value: 49002
-  - Name: RootPath
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "WebRoot/formioApp"
-  - Name: Enable
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: true
-  - Name: Error
-    Type: BaseDataVariableType
-    DataType: String
+  - Class: Reference
+    Target: g=7e56af3829076eb6af7c7cf7f840900e
+    Direction: Forward
 - Name: SignatureWebServer
   Type: WebServerType
   Children:
@@ -429,3 +414,32 @@ Children:
     DataType: String
   - Name: SignatureWebServer_RuntimeNetLogic
     Type: NetLogic
+- Name: FormIOServer
+  Type: WebServerType
+  Children:
+  - Name: Port
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 49002
+  - Name: RootPath
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WebRoot/formioApp"
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Error
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: FormIOServer_RuntimeNetLogic
+    Type: NetLogic
+  - Name: Store
+    Type: Alias
+    DataType: NodeId
+    Value: "/Objects/OEM_Template_V1/DataStores/FormIODB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store/SQLiteStore"
