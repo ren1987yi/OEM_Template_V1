@@ -387,3 +387,4 @@ Children:
           Type: PropertyType
           DataType: UInt16
 - File: Collection/Collection.yaml
+- File: MultiPageContainer/MultiPageContainer.yaml
