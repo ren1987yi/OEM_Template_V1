@@ -55,7 +55,7 @@ public class SignatureWebServer_RuntimeNetLogic : BaseNetLogic
         var spath = uri.Uri;
 
         app = new WebApplication(System.Net.IPAddress.Any,Port,"",RootPath);
-
+        app.UseStaticFile();
         app.Services.AddSingleton(new Configure()
         {
             StoragePath = spath,

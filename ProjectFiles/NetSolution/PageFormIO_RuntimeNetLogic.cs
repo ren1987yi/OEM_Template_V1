@@ -29,6 +29,7 @@ public class PageFormIO_RuntimeNetLogic : BaseNetLogic
         // Insert code to be executed when the user-defined logic is started
         nStore = Owner.GetAlias("Store") as SQLiteStore;
         nSchemas = LogicObject.GetObject("Schemas");
+        
     }
 
     public override void Stop()

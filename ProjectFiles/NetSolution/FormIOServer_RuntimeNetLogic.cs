@@ -57,7 +57,7 @@ public class FormIOServer_RuntimeNetLogic : BaseNetLogic
 
         app = new WebApplication(System.Net.IPAddress.Any, Port, "", RootPath);
 
-
+        app.UseStaticFile();
         //var dbpath = Path.GetFullPath("formio_demo11.db");
         var repo = new RepositoryOptix(nStore);
         app.Services.AddSingleton<IRepository<FormSchema, FormSubmission>>(repo);

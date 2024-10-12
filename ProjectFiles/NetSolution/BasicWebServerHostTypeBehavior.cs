@@ -43,6 +43,7 @@ public class BasicWebServerHostTypeBehavior : BaseNetBehavior
         //_path = @"D:\code\web\form.io.test\";
 
         app = new WebApplication(IPAddress.Any, _port,"", _path);
+        app.UseStaticFile();
         app.Start();
 
 

@@ -469,7 +469,7 @@ namespace GodotServerHost
         {
             var server = new GodotServer(IPAddress.Any, port, fInit);
 
-            server.AddStaticContent(root, "");
+            server.AddStaticContent(root, "","*.*",null,null);
             return server;
         }
 

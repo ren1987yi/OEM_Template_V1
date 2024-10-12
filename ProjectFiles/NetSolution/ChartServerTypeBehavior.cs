@@ -250,6 +250,7 @@ namespace OptixWebServer.Charts
             
             
             app = new WebApplication(IPAddress.Any, port, "", rootpath);
+            app.UseStaticFile();
             app.Services.AddSingleton(chartsConfigre);
             
             app.MapController(new string[] { "OptixWebServer.Charts" });

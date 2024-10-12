@@ -16,7 +16,7 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DotNetWebServer" Version="0.0.1.1-alpha"/>
+    <PackageReference Include="DotNetWebServer" Version="0.0.1.1"/>
     <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.1"/>
     <PackageReference Include="VisualScriptOptix" Version="0.0.1-beta"/>
   </ItemGroup>
