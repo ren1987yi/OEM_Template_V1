@@ -279,3 +279,8 @@ Children:
   - Name: RefActive
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: HitTestVisible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true

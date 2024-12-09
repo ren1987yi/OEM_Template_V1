@@ -1,0 +1,1033 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLa
+  Id: g=1597a13a7e3c98d3181344f0e3ba9b45
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLa",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1597a13a7e3c98d3181344f0e3ba9b45",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ProdDefectiveCount",
+      "DataType": {
+       "IdType": 2,
+       "Id": "66c00972995ed8dbaceb935f6b76d9d4",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1]
+     },{
+      "Name": "ProdProcessedCount",
+      "DataType": {
+       "IdType": 2,
+       "Id": "66c00972995ed8dbaceb935f6b76d9d4",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [1]
+     },{
+      "Name": "StopReason",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f9d39f75dc80999b174ab9732cb69538",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLa"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_2015
+  Id: g=3f737e42558c24cc3a334fb79df7e55a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_2015",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3f737e42558c24cc3a334fb79df7e55a",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Admin",
+      "DataType": {
+       "IdType": 2,
+       "Id": "1597a13a7e3c98d3181344f0e3ba9b45",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Command",
+      "DataType": {
+       "IdType": 2,
+       "Id": "2a7ef59a9c1fb63c93d8ba0cf37d92be",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a2aff5f385df2c21e9f951ccc9b171bc",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_2015"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLalm
+  Id: g=f9d39f75dc80999b174ab9732cb69538
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLalm",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f9d39f75dc80999b174ab9732cb69538",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLalm"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TIMER
+  Id: g=6335db1cced142143f14a717d6a21739
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6335db1cced142143f14a717d6a21739",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLc
+  Id: g=2a7ef59a9c1fb63c93d8ba0cf37d92be
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLc",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2a7ef59a9c1fb63c93d8ba0cf37d92be",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CmdChangeRequest",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CntrlCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MachSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "UnitMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UnitModeChangeRequest",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLc"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_Dvc_EAVI5C_ISATR880002_2015
+  Id: g=86c71bbefabbe3cfa3c04efd324fe259
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_Dvc_EAVI5C_ISATR880002_2015",
+    "DataType": {
+     "IdType": 2,
+     "Id": "86c71bbefabbe3cfa3c04efd324fe259",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cfg_FreqNorm",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_FreqSlow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_RatioNorm",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_RatioSlow",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_AUD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Audible",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_BLU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_GRN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_RED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Silence",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_WHT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_YEL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_Blocked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_MaterialLow",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_MaterialOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inp_Starved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_AUD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_BLU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_GRN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_RED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_WHT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out_YEL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "raM_Dvc_EAVI5C_ISATR880002_2015",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_AudPattern",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_AUD",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_BLU",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_GRN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_RED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Silenced",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_WHT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_YEL",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_Dvc_EAVI5C_ISATR880002_2015"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLs
+  Id: g=a2aff5f385df2c21e9f951ccc9b171bc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLs",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a2aff5f385df2c21e9f951ccc9b171bc",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "CurMachSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "EquipmentInterlock",
+      "DataType": {
+       "IdType": 2,
+       "Id": "4845fe42344798768257acd37738fe47",
+       "Namespace": 7
+      }
+     },{
+      "Name": "MachSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StateCurrent",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UnitModeCurrent",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLs"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLprdcnt
+  Id: g=66c00972995ed8dbaceb935f6b76d9d4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLprdcnt",
+    "DataType": {
+     "IdType": 2,
+     "Id": "66c00972995ed8dbaceb935f6b76d9d4",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Count",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLprdcnt"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_Opr_ISATR880002_2022
+  Id: g=9f5ee6bd22fc32615c849f6628d204e5
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_Opr_ISATR880002_2022",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9f5ee6bd22fc32615c849f6628d204e5",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "_bCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_bState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_DisableState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_EnableState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_Abort",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Clear",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Complete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_eMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_Hold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_StateComplete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Suspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_UnHold",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_UnSuspend",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_sMode",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_sState",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Out_bMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_bState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_eMode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Out_eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "raM_Opr_ISATR880002_2022",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Aborted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Aborting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bCommand",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bEnabledStates",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bStateCmdPermit",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Clearing",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Complete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Completing",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Execute",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Held",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Holding",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Idle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ModeLocked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Resetting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Starting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Stopped",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Stopping",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Suspended",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Suspending",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_UnHolding",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_UnSuspending",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_Opr_ISATR880002_2022"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_UDT_ISATR880002_PMLeqpitlk
+  Id: g=4845fe42344798768257acd37738fe47
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_UDT_ISATR880002_PMLeqpitlk",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4845fe42344798768257acd37738fe47",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Blocked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Starved",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_UDT_ISATR880002_PMLeqpitlk"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raM_Opr_EventCreate
+  Id: g=2e55ee0daaa2dfc839f4d89a7991290b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_Opr_EventCreate",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2e55ee0daaa2dfc839f4d89a7991290b",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inp_Action",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_Category",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_ID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_MessageLEN",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_Type",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Inp_Value",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "raM_Opr_EventCreate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_Opr_EventCreate"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: FBD_BOOLEAN_OR
+  Id: g=990d3c55a6da477977a3e31aa2156d11
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "FBD_BOOLEAN_OR",
+    "DataType": {
+     "IdType": 2,
+     "Id": "990d3c55a6da477977a3e31aa2156d11",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In7",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In8",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Out",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"FBD_BOOLEAN_OR"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

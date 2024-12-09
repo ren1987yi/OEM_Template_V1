@@ -2,3 +2,4 @@ Name: RA
 Type: RAEtherNetIPDriver
 Children:
 - File: Robot/Robot.yaml
+- File: RAEtherNet_IPStation1/RAEtherNet_IPStation1.yaml

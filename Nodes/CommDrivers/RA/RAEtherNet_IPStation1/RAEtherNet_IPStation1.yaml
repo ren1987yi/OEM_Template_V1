@@ -1,0 +1,123 @@
+Name: RAEtherNet_IPStation1
+Id: g=5c89842934b272e783af85d99ba6c668
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "172.168.101.99\\Backplane\\0"
+- Name: StationStatusVariables
+  Type: PropertyGroup
+  Children:
+  - Name: ActiveDataItems
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ActivityCounter
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: CatalogNumber
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ControllerName
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: FailedDataItems
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MajorRev
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MinorRev
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Mode
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: OptimizedBlocks
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: Path
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: Present
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: ProductCode
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: ProductType
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: RecoverableMajorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RecoverableMinorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: RunMode
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Synchronized
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: SyncState
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: UnrecoverableMajorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: UnrecoverableMinorFaults
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Vendor
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+- Class: Reference
+  Target: ns=27;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=27;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml

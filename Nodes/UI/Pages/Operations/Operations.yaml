@@ -264,6 +264,17 @@ Children:
         - Name: RefModify
           Type: BaseDataVariableType
           DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/OCmd_Clear"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: RefActive
           Type: BaseDataVariableType
           DataType: Boolean
@@ -465,6 +476,17 @@ Children:
         - Name: RefModify
           Type: BaseDataVariableType
           DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/OCmd_Start"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: RefActive
           Type: BaseDataVariableType
           DataType: Boolean
@@ -661,6 +683,17 @@ Children:
         - Name: RefModify
           Type: BaseDataVariableType
           DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/OCmd_Stop"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: RefActive
           Type: BaseDataVariableType
           DataType: Boolean
@@ -843,7 +876,7 @@ Children:
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PowerOff"}
+          Value: {"LocaleId":"en-US","Text":"Abort"}
         - Name: Icon
           Type: BaseDataVariableType
           DataType: ResourceUri
@@ -1053,14 +1086,41 @@ Children:
         - Name: RefModify
           Type: BaseDataVariableType
           DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/OCmd_Reset"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: RefActive
           Type: BaseDataVariableType
           DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/OCmd_Reset"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
           ModellingRule: Optional
           Value: 2
+        - Name: HitTestVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
     - Name: Panel1
       Type: raM_1_00_raM_Opr_ISATR880002_2022_W_StateModel
       Children:
@@ -2940,6 +3000,7 @@ Children:
       - Name: Inp_ProceduralModel
         Type: BaseDataVariableType
         DataType: NodeId
+        Value: "/Objects/OEM_Template_V1/CommDrivers/RA/RAEtherNet_IPStation1/Tags/Program&:Unit/ModeStateModel"
       - Name: Set_ActiveStateFillColor
         Type: BaseDataVariableType
         DataType: Color

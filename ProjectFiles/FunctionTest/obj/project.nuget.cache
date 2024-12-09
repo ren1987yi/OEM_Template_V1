@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2AwzZgWW8uLM3WrQikoQQIK+qp0qPu4cYz9TJ87UQBSft+7LhpzIcCaauGl2FKbJummlZBT4hhHLLyee56W9vw==",
+  "dgSpecHash": "X9ATJlK1OUI=",
   "success": true,
   "projectFilePath": "D:\\Work\\Optix\\OEM_Template_V1\\ProjectFiles\\FunctionTest\\FunctionTest.csproj",
   "expectedPackageFiles": [
@@ -8,18 +8,5 @@
     "C:\\Users\\YRen6\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
     "C:\\Users\\YRen6\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://52.130.64.23:50109/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://49.234.47.230:8079/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
