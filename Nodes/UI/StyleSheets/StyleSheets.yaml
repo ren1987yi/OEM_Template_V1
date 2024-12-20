@@ -727,6 +727,16 @@ Children:
       - Name: HeaderIconPosition
         Type: BaseDataVariableType
         DataType: HeaderIconPositionEnum
+    - Name: AccordionStyle_Machine
+      Type: AccordionStyle
+      Children:
+      - Name: HeaderIconPosition
+        Type: BaseDataVariableType
+        DataType: HeaderIconPositionEnum
+      - Name: HeaderBackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#889cac"
   - Name: PieChartStyles
     Type: BaseObjectType
     Children:

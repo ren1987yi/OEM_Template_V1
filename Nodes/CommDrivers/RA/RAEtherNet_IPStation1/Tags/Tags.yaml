@@ -1,4 +1,18 @@
 Name: Tags
 Type: FolderType
 Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_EM00_MachineMaster/Program_EM00_MachineMaster.yaml
+- File: Program_EM01_K5300/Program_EM01_K5300.yaml
+- File: Program_EM02_K5500/Program_EM02_K5500.yaml
+- File: Program_EM03_K5700/Program_EM03_K5700.yaml
+- File: Program_EM04_K5100/Program_EM04_K5100.yaml
+- File: Program_EM05_PF525/Program_EM05_PF525.yaml
+- File: Program_EM06_PF753/Program_EM06_PF753.yaml
+- File: Program_EM07_PF527/Program_EM07_PF527.yaml
+- File: Program_PerformanceTrack/Program_PerformanceTrack.yaml
 - File: Program_Unit/Program_Unit.yaml
+- File: Program_raM_Dvc_AHLP/Program_raM_Dvc_AHLP.yaml
+- File: Program_raM_Dvc_DH_SysIni/Program_raM_Dvc_DH_SysIni.yaml
+- File: Program_raM_Opr_CtrlEvtQueue/Program_raM_Opr_CtrlEvtQueue.yaml
+- File: Program_raM_Opr_Recipe/Program_raM_Opr_Recipe.yaml

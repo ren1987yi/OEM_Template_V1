@@ -49,24 +49,29 @@ public class ChartServerTypeBehavior : BaseNetBehavior
         vError = Node.GetVariable("Error");
         try
         {
-            Node.TestVariable.VariableChange += TestVariable_VariableChange;
+            var _longtask = new LongRunningTask(() => { 
+                Node.TestVariable.VariableChange += TestVariable_VariableChange;
 
-            // Insert code to be executed when the user-defined behavior is started
-            var root = Node.GetVariableValue<string>("RootPath");
+                // Insert code to be executed when the user-defined behavior is started
+                var root = Node.GetVariableValue<string>("RootPath");
 
-            var uri = ResourceUri.FromProjectRelativePath(root);
-            RootPath = uri.Uri;
-            //RootPath = @"D:\Work\Optix\OEM_Template_V1\ProjectFiles\WebRoot\ChartsApp";
-            Port = Node.GetVariableValue<UInt16>("Port");
-            cfgs = BuildConfigre();
+                var uri = ResourceUri.FromProjectRelativePath(root);
+                RootPath = uri.Uri;
+                //RootPath = @"D:\Work\Optix\OEM_Template_V1\ProjectFiles\WebRoot\ChartsApp";
+                Port = Node.GetVariableValue<UInt16>("Port");
+                cfgs = BuildConfigre();
 
-            Log.Info("Chart Server", $"Root:{RootPath} ; Port:{Port}");
-
-            host = new ChartSeverHost(Port, RootPath, "", cfgs);
+                Log.Info("Chart Server", $"Root:{RootPath} ; Port:{Port}");
 
 
-            //有的时候，tcp端口被排除了
-            host.Start();
+            
+                host = new ChartSeverHost(Port, RootPath, "", cfgs);
+
+
+                //有的时候，tcp端口被排除了
+                host.Start();
+            }, Node);
+            _longtask.Start();
         }
         catch (Exception ex)
         {

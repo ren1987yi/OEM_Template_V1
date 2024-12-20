@@ -10,3 +10,5 @@ Children:
   - Name: DocumentPath
     Type: BaseDataVariableType
     DataType: ResourceUri
+- Name: EChartSSR_RuntimeNetLogic
+  Type: NetLogic

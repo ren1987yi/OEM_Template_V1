@@ -1,0 +1,949 @@
+Name: 'Program:raM_Dvc_AHLP'
+Type: FolderType
+Children:
+- Name: Inf_Lookup
+  Type: raC_UDT_LookupMember_STR0082
+  DataType: raC_UDT_LookupMember_STR0082
+  ValueRank: OneDimension
+  ArrayDimensions: [39]
+  Children:
+  - Name: 0
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[0].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[0].Desc"
+  - Name: 1
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[1].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[1].Desc"
+  - Name: 2
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[2].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[2].Desc"
+  - Name: 3
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[3].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[3].Desc"
+  - Name: 4
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[4].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[4].Desc"
+  - Name: 5
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[5].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[5].Desc"
+  - Name: 6
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[6].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[6].Desc"
+  - Name: 7
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[7].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[7].Desc"
+  - Name: 8
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[8].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[8].Desc"
+  - Name: 9
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[9].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[9].Desc"
+  - Name: 10
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[10].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[10].Desc"
+  - Name: 11
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[11].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[11].Desc"
+  - Name: 12
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[12].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[12].Desc"
+  - Name: 13
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[13].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[13].Desc"
+  - Name: 14
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[14].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[14].Desc"
+  - Name: 15
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[15].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[15].Desc"
+  - Name: 16
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[16].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[16].Desc"
+  - Name: 17
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[17].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[17].Desc"
+  - Name: 18
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[18].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[18].Desc"
+  - Name: 19
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[19].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[19].Desc"
+  - Name: 20
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[20].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[20].Desc"
+  - Name: 21
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[21].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[21].Desc"
+  - Name: 22
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[22].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[22].Desc"
+  - Name: 23
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[23].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[23].Desc"
+  - Name: 24
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[24].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[24].Desc"
+  - Name: 25
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[25].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[25].Desc"
+  - Name: 26
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[26].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[26].Desc"
+  - Name: 27
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[27].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[27].Desc"
+  - Name: 28
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[28].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[28].Desc"
+  - Name: 29
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[29].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[29].Desc"
+  - Name: 30
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[30].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[30].Desc"
+  - Name: 31
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[31].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[31].Desc"
+  - Name: 32
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[32].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[32].Desc"
+  - Name: 33
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[33].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[33].Desc"
+  - Name: 34
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[34].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[34].Desc"
+  - Name: 35
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[35].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[35].Desc"
+  - Name: 36
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[36].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[36].Desc"
+  - Name: 37
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[37].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[37].Desc"
+  - Name: 38
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[38].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Dvc_AHLP.Inf_Lookup[38].Desc"
+- Name: Set_Language
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP.Set_Language"
+- Name: Sts_CurrentLanguage
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP.Sts_CurrentLanguage"
+- Name: Sts_LanguageAvailable
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP.Sts_LanguageAvailable"
+- Name: _i
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._i"
+- Name: _InfSize
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._InfSize"
+- Name: _LN6783_CS
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN6783_CS"
+- Name: _LN6869_DE
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN6869_DE"
+- Name: _LN6978_EN
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [39]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN6978_EN"
+- Name: _LN6983_ES
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN6983_ES"
+- Name: _LN7082_FR
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN7082_FR"
+- Name: _LN7384_IT
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN7384_IT"
+- Name: _LN7465_JA
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN7465_JA"
+- Name: _LN7579_KO
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN7579_KO"
+- Name: _LN8084_PT
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN8084_PT"
+- Name: _LN8386_SV
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN8386_SV"
+- Name: _LN8568_UD
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN8568_UD"
+- Name: _LN9072_ZH
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Dvc_AHLP._LN9072_ZH"

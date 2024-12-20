@@ -1,0 +1,717 @@
+Name: 'Program:raM_Opr_Recipe'
+Type: FolderType
+Children:
+- Name: Cfg_bEnableConfirmation
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Cfg_bEnableConfirmation"
+- Name: Cfg_GenerateID
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Cfg_GenerateID"
+- Name: Cfg_WatchDogTime
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Cfg_WatchDogTime"
+- Name: Cmd_Load
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Cmd_Load"
+- Name: HMI_bButtonEnabled
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_bButtonEnabled"
+- Name: HMI_ButtonTextCreate
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_ButtonTextCreate"
+- Name: HMI_Cancel
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Cancel"
+- Name: HMI_Clear
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Clear"
+- Name: HMI_Confirm
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Confirm"
+- Name: HMI_ConfirmationTopic
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_ConfirmationTopic"
+- Name: HMI_ConfirmationType
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_ConfirmationType"
+- Name: HMI_CreateNewFrom
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_CreateNewFrom"
+- Name: HMI_Demote
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Demote"
+- Name: HMI_Edit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Edit"
+- Name: HMI_ListCommands
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_ListCommands"
+- Name: HMI_List_Indicator
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_List_Indicator"
+- Name: HMI_List_RecipeID
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [12]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_List_RecipeID"
+- Name: HMI_List_RecipeName
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [11]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_List_RecipeName"
+- Name: HMI_List_RecipeStatus
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [11]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_List_RecipeStatus"
+- Name: HMI_List_RecipeStatus1
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [11]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_List_RecipeStatus1"
+- Name: HMI_Load
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Load"
+- Name: HMI_NewRecipeID
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_NewRecipeID"
+- Name: HMI_NewRecipeName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_NewRecipeName"
+- Name: HMI_Promote
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Promote"
+- Name: HMI_RecipeIDSelected
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_RecipeIDSelected"
+- Name: HMI_RecipeNameSelected
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_RecipeNameSelected"
+- Name: HMI_Rename
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Rename"
+- Name: HMI_SaveActive
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SaveActive"
+- Name: HMI_SaveEdit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SaveEdit"
+- Name: HMI_Search
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Search"
+- Name: HMI_SearchNext
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SearchNext"
+- Name: HMI_SearchNextVisible
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SearchNextVisible"
+- Name: HMI_SearchRecipeName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SearchRecipeName"
+- Name: HMI_SearchResultID
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SearchResultID"
+- Name: HMI_SearchResultName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SearchResultName"
+- Name: HMI_SelectRecipeType
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_SelectRecipeType"
+- Name: HMI_StatusMessage
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_StatusMessage"
+- Name: HMI_Tab
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.HMI_Tab"
+- Name: Inf_Label
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inf_Label"
+- Name: Inf_Lib
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inf_Lib"
+- Name: Inf_Type
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inf_Type"
+- Name: Inf_Version
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inf_Version"
+- Name: Inp_LoadRecipeID
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inp_LoadRecipeID"
+- Name: Inp_RecipeActivePermissive
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Inp_RecipeActivePermissive"
+- Name: raM_Opr_Recipe
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.raM_Opr_Recipe"
+- Name: Ref_RecipeActive
+  Type: raM_UDT_Opr_Recipe
+  DataType: raM_UDT_Opr_Recipe
+  Children:
+  - Name: Preserved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.Preserved"
+  - Name: RecipeID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.RecipeID"
+  - Name: RecipeName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.RecipeName"
+  - Name: UserData
+    Type: raM_UDT_Opr_RecipeUserData
+    DataType: raM_UDT_Opr_RecipeUserData
+    Children:
+    - Name: AgitatorSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.AgitatorSpeed"
+    - Name: BagLength
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.BagLength"
+    - Name: BagOffset
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.BagOffset"
+    - Name: FillCounts
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.FillCounts"
+    - Name: FillerDelay
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.FillerDelay"
+    - Name: FillSpeed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.FillSpeed"
+    - Name: FinSealTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.FinSealTempSetPoint"
+    - Name: JawHFrontTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.JawHFrontTempSetPoint"
+    - Name: JawHParkPosition
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.JawHParkPosition"
+    - Name: JawHRearTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.JawHRearTempSetPoint"
+    - Name: MachineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.MachineSpeed"
+    - Name: SealTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeActive.UserData.SealTime"
+- Name: Ref_RecipeEdit
+  Type: raM_UDT_Opr_Recipe
+  DataType: raM_UDT_Opr_Recipe
+  Children:
+  - Name: Preserved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.Preserved"
+  - Name: RecipeID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.RecipeID"
+  - Name: RecipeName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.RecipeName"
+  - Name: UserData
+    Type: raM_UDT_Opr_RecipeUserData
+    DataType: raM_UDT_Opr_RecipeUserData
+    Children:
+    - Name: AgitatorSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.AgitatorSpeed"
+    - Name: BagLength
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.BagLength"
+    - Name: BagOffset
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.BagOffset"
+    - Name: FillCounts
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.FillCounts"
+    - Name: FillerDelay
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.FillerDelay"
+    - Name: FillSpeed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.FillSpeed"
+    - Name: FinSealTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.FinSealTempSetPoint"
+    - Name: JawHFrontTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.JawHFrontTempSetPoint"
+    - Name: JawHParkPosition
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.JawHParkPosition"
+    - Name: JawHRearTempSetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.JawHRearTempSetPoint"
+    - Name: MachineSpeed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.MachineSpeed"
+    - Name: SealTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:raM_Opr_Recipe.Ref_RecipeEdit.UserData.SealTime"
+- Name: Set_bInhibitCommand
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Set_bInhibitCommand"
+- Name: Sts_ERR
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_ERR"
+- Name: Sts_eWarning
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_eWarning"
+- Name: _bCommands
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe._bCommands"
+- Name: _bCommandsCopy
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe._bCommandsCopy"
+- Name: _bSts
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe._bSts"
+- Name: Sts_Warning
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_Warning"
+- Name: Sts_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_ER"
+- Name: Sts_LoadDn
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_LoadDn"
+- Name: Sts_IP
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe.Sts_IP"
+- Name: _ListLegend
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [4]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:raM_Opr_Recipe._ListLegend"

@@ -1,0 +1,3088 @@
+Name: 'Program:EM04_K5100'
+Type: FolderType
+Children:
+- Name: CAMP
+  Type: CAM_PROFILE
+  DataType: CAM_PROFILE
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: 0
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[0].Status"
+  - Name: 1
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[1].Status"
+  - Name: 2
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[2].Status"
+  - Name: 3
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[3].Status"
+  - Name: 4
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[4].Status"
+  - Name: 5
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[5].Status"
+  - Name: 6
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[6].Status"
+  - Name: 7
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[7].Status"
+  - Name: 8
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[8].Status"
+  - Name: 9
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[9].Status"
+  - Name: 10
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[10].Status"
+  - Name: 11
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[11].Status"
+  - Name: 12
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[12].Status"
+  - Name: 13
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[13].Status"
+  - Name: 14
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[14].Status"
+  - Name: 15
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[15].Status"
+  - Name: 16
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[16].Status"
+  - Name: 17
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[17].Status"
+  - Name: 18
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[18].Status"
+  - Name: 19
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[19].Status"
+  - Name: 20
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[20].Status"
+  - Name: 21
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[21].Status"
+  - Name: 22
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[22].Status"
+  - Name: 23
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[23].Status"
+  - Name: 24
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[24].Status"
+  - Name: 25
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[25].Status"
+  - Name: 26
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[26].Status"
+  - Name: 27
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[27].Status"
+  - Name: 28
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[28].Status"
+  - Name: 29
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[29].Status"
+  - Name: 30
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[30].Status"
+  - Name: 31
+    Type: CAM_PROFILE
+    DataType: CAM_PROFILE
+    Children:
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.CAMP[31].Status"
+- Name: Ctrl_Inf
+  Type: raC_UDT_Itf_K5100_Inf
+  DataType: raC_UDT_Itf_K5100_Inf
+  Children:
+  - Name: bExtensionAlert
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Inf.bExtensionAlert"
+  - Name: bExtensionEnabled
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Inf.bExtensionEnabled"
+  - Name: ModulePath
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Inf.ModulePath"
+- Name: Ctrl_Set
+  Type: raC_UDT_Itf_K5100_Set
+  DataType: raC_UDT_Itf_K5100_Set
+  Children:
+  - Name: Accel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.Accel"
+  - Name: bInhibit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.bInhibit"
+  - Name: CamExecutionMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamExecutionMode"
+  - Name: CamExecutionSchedule
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamExecutionSchedule"
+  - Name: CamLockPosition
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamLockPosition"
+  - Name: CamMasterCyclicLeadingCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamMasterCyclicLeadingCounts"
+  - Name: CamMasterLeadingCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamMasterLeadingCounts"
+  - Name: CamMasterLockPosition
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamMasterLockPosition"
+  - Name: CamMasterReference
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamMasterReference"
+  - Name: CamMasterUnlockCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamMasterUnlockCounts"
+  - Name: CamSlaveScaling
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamSlaveScaling"
+  - Name: CamStopMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CamStopMode"
+  - Name: CapturedPositionSelect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.CapturedPositionSelect"
+  - Name: Decel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.Decel"
+  - Name: GearRatioMasterCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.GearRatioMasterCounts"
+  - Name: GearRatioSlaveCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.GearRatioSlaveCounts"
+  - Name: HomeReturnSpeed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.HomeReturnSpeed"
+  - Name: HomingMethod
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.HomingMethod"
+  - Name: InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.InhibitCmd"
+  - Name: InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.InhibitSet"
+  - Name: MoveType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.MoveType"
+  - Name: OperatingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.OperatingMode"
+  - Name: Position
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.Position"
+  - Name: PositionCommandOverlap
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.PositionCommandOverlap"
+  - Name: PositionCommandOverride
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.PositionCommandOverride"
+  - Name: StartingIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.StartingIndex"
+  - Name: Torque
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.Torque"
+  - Name: TorqueRampTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.TorqueRampTime"
+  - Name: Velocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Set.Velocity"
+- Name: Ctrl_Cmd
+  Type: raC_UDT_Itf_K5100_Cmd
+  DataType: raC_UDT_Itf_K5100_Cmd
+  Children:
+  - Name: Activate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.Activate"
+  - Name: bCmd
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.bCmd"
+  - Name: Deactivate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.Deactivate"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.Physical"
+  - Name: ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.ResetFault"
+  - Name: ResetWarn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.ResetWarn"
+  - Name: StartMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.StartMotion"
+  - Name: StopMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.StopMotion"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cmd.Virtual"
+- Name: Ctrl_Sts
+  Type: raC_UDT_Itf_K5100_Sts
+  DataType: raC_UDT_Itf_K5100_Sts
+  Children:
+  - Name: Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Active"
+  - Name: ActiveIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ActiveIndex"
+  - Name: ActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ActualPosition"
+  - Name: ActualTorque
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ActualTorque"
+  - Name: ActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ActualVelocity"
+  - Name: AtReference
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.AtReference"
+  - Name: Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Available"
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.bSts"
+  - Name: CommandInProgress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.CommandInProgress"
+  - Name: Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Connected"
+  - Name: eCmdFail
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.eCmdFail"
+  - Name: eState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.eState"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Faulted"
+  - Name: FirstFault
+    Type: raC_UDT_Event
+    DataType: raC_UDT_Event
+    Children:
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.Action"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.Category"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.EventTime_D"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.EventTime_L"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.ID"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.Message"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.Type"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstFault.Value"
+  - Name: FirstWarning
+    Type: raC_UDT_Event
+    DataType: raC_UDT_Event
+    Children:
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.Action"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.Category"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.EventTime_D"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.EventTime_L"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.ID"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.Message"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.Type"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.Ctrl_Sts.FirstWarning.Value"
+  - Name: Homed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Homed"
+  - Name: MotorType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.MotorType"
+  - Name: OperatingMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.OperatingMode"
+  - Name: ParameterMonitor1Value
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ParameterMonitor1Value"
+  - Name: ParameterMonitor2Value
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ParameterMonitor2Value"
+  - Name: ParameterMonitor3Value
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ParameterMonitor3Value"
+  - Name: ParameterMonitor4Value
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ParameterMonitor4Value"
+  - Name: ParameterMonitor5Value
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ParameterMonitor5Value"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Physical"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Ready"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Virtual"
+  - Name: Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.Warning"
+  - Name: ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Sts.ZeroSpeed"
+- Name: MAM
+  Type: raC_Opr_K5100_MAM
+  DataType: raC_Opr_K5100_MAM
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
+  Children:
+  - Name: 0
+    Type: raC_Opr_K5100_MAM
+    DataType: raC_Opr_K5100_MAM
+    Children:
+    - Name: _bSts
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0]._bSts"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].EnableOut"
+    - Name: Set_AccelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_AccelReference"
+    - Name: Set_CapturedPositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_CapturedPositionSelect"
+    - Name: Set_DecelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_DecelReference"
+    - Name: Set_MoveType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_MoveType"
+    - Name: Set_PositionCommandOverlap
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_PositionCommandOverlap"
+    - Name: Set_PositionCommandOverride
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_PositionCommandOverride"
+    - Name: Set_PositionReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_PositionReference"
+    - Name: Set_SpeedReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Set_SpeedReference"
+    - Name: Sts_DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_DN"
+    - Name: Sts_EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_EN"
+    - Name: Sts_ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_ER"
+    - Name: Sts_ERR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_ERR"
+    - Name: Sts_IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_IP"
+    - Name: Sts_PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[0].Sts_PC"
+  - Name: 1
+    Type: raC_Opr_K5100_MAM
+    DataType: raC_Opr_K5100_MAM
+    Children:
+    - Name: _bSts
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1]._bSts"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].EnableOut"
+    - Name: Set_AccelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_AccelReference"
+    - Name: Set_CapturedPositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_CapturedPositionSelect"
+    - Name: Set_DecelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_DecelReference"
+    - Name: Set_MoveType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_MoveType"
+    - Name: Set_PositionCommandOverlap
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_PositionCommandOverlap"
+    - Name: Set_PositionCommandOverride
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_PositionCommandOverride"
+    - Name: Set_PositionReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_PositionReference"
+    - Name: Set_SpeedReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Set_SpeedReference"
+    - Name: Sts_DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_DN"
+    - Name: Sts_EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_EN"
+    - Name: Sts_ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_ER"
+    - Name: Sts_ERR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_ERR"
+    - Name: Sts_IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_IP"
+    - Name: Sts_PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[1].Sts_PC"
+  - Name: 2
+    Type: raC_Opr_K5100_MAM
+    DataType: raC_Opr_K5100_MAM
+    Children:
+    - Name: _bSts
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2]._bSts"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].EnableOut"
+    - Name: Set_AccelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_AccelReference"
+    - Name: Set_CapturedPositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_CapturedPositionSelect"
+    - Name: Set_DecelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_DecelReference"
+    - Name: Set_MoveType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_MoveType"
+    - Name: Set_PositionCommandOverlap
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_PositionCommandOverlap"
+    - Name: Set_PositionCommandOverride
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_PositionCommandOverride"
+    - Name: Set_PositionReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_PositionReference"
+    - Name: Set_SpeedReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Set_SpeedReference"
+    - Name: Sts_DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_DN"
+    - Name: Sts_EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_EN"
+    - Name: Sts_ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_ER"
+    - Name: Sts_ERR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_ERR"
+    - Name: Sts_IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_IP"
+    - Name: Sts_PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[2].Sts_PC"
+  - Name: 3
+    Type: raC_Opr_K5100_MAM
+    DataType: raC_Opr_K5100_MAM
+    Children:
+    - Name: _bSts
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3]._bSts"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].EnableOut"
+    - Name: Set_AccelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_AccelReference"
+    - Name: Set_CapturedPositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_CapturedPositionSelect"
+    - Name: Set_DecelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_DecelReference"
+    - Name: Set_MoveType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_MoveType"
+    - Name: Set_PositionCommandOverlap
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_PositionCommandOverlap"
+    - Name: Set_PositionCommandOverride
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_PositionCommandOverride"
+    - Name: Set_PositionReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_PositionReference"
+    - Name: Set_SpeedReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Set_SpeedReference"
+    - Name: Sts_DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_DN"
+    - Name: Sts_EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_EN"
+    - Name: Sts_ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_ER"
+    - Name: Sts_ERR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_ERR"
+    - Name: Sts_IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_IP"
+    - Name: Sts_PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[3].Sts_PC"
+  - Name: 4
+    Type: raC_Opr_K5100_MAM
+    DataType: raC_Opr_K5100_MAM
+    Children:
+    - Name: _bSts
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4]._bSts"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].EnableOut"
+    - Name: Set_AccelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_AccelReference"
+    - Name: Set_CapturedPositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_CapturedPositionSelect"
+    - Name: Set_DecelReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_DecelReference"
+    - Name: Set_MoveType
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_MoveType"
+    - Name: Set_PositionCommandOverlap
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_PositionCommandOverlap"
+    - Name: Set_PositionCommandOverride
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_PositionCommandOverride"
+    - Name: Set_PositionReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_PositionReference"
+    - Name: Set_SpeedReference
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Set_SpeedReference"
+    - Name: Sts_DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_DN"
+    - Name: Sts_EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_EN"
+    - Name: Sts_ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_ER"
+    - Name: Sts_ERR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_ERR"
+    - Name: Sts_IP
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_IP"
+    - Name: Sts_PC
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.MAM[4].Sts_PC"
+- Name: GoHomeAccDec
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.GoHomeAccDec"
+- Name: GoHomePos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.GoHomePos"
+- Name: GoHomeSpd
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.GoHomeSpd"
+- Name: Inp_bMode
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Inp_bMode"
+- Name: Inp_bState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Inp_bState"
+- Name: Inp_eMode
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Inp_eMode"
+- Name: Inp_eState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Inp_eState"
+- Name: MAS_01
+  Type: raC_Opr_K5100_MAS
+  DataType: raC_Opr_K5100_MAS
+  Children:
+  - Name: _bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01._bSts"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.EnableOut"
+  - Name: Set_DecelReference
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Set_DecelReference"
+  - Name: Sts_DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_DN"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_EN"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_ER"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_ERR"
+  - Name: Sts_IP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_IP"
+  - Name: Sts_PC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAS_01.Sts_PC"
+- Name: StopDec
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.StopDec"
+- Name: MasterScaling
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.MasterScaling"
+- Name: ONS
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.ONS"
+- Name: raC_Dvc_InfTable
+  Type: raC_UDT_LookupMember_STR0082
+  DataType: raC_UDT_LookupMember_STR0082
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: 0
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.raC_Dvc_InfTable[0].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.raC_Dvc_InfTable[0].Desc"
+  - Name: 1
+    Type: raC_UDT_LookupMember_STR0082
+    DataType: raC_UDT_LookupMember_STR0082
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.raC_Dvc_InfTable[1].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100.raC_Dvc_InfTable[1].Desc"
+- Name: Dvc_K5100
+  Id: g=040527dba206eb76643b1969463c767f
+  Type: raC_Dvc_K5100
+  DataType: raC_Dvc_K5100
+  Children:
+  - Name: _bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100._bSts"
+  - Name: Cfg_PositionEU
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cfg_PositionEU"
+  - Name: Cfg_PositionTrendMax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cfg_PositionTrendMax"
+  - Name: Cfg_PositionTrendMin
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cfg_PositionTrendMin"
+  - Name: Cfg_VelocityTrendMax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cfg_VelocityTrendMax"
+  - Name: Cfg_VelocityTrendMin
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cfg_VelocityTrendMin"
+  - Name: Cmd_Activate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cmd_Activate"
+  - Name: Cmd_Deactivate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cmd_Deactivate"
+  - Name: Cmd_JogFwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cmd_JogFwd"
+  - Name: Cmd_JogRev
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cmd_JogRev"
+  - Name: Cmd_ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Cmd_ResetFault"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.EnableOut"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.HMI_Tab"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Inf_Lib"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Inf_Type"
+  - Name: raC_Dvc_K5100
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.raC_Dvc_K5100"
+  - Name: Set_AccelRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Set_AccelRate"
+  - Name: Set_DecelRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Set_DecelRate"
+  - Name: Set_Velocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Set_Velocity"
+  - Name: Sts_Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Active"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Available"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_bNotReady"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Connected"
+  - Name: Sts_DriveUnits
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_DriveUnits"
+  - Name: Sts_eDvcAction
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_eDvcAction"
+  - Name: Sts_eEventType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_eEventType"
+  - Name: Sts_eEventValue
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_eEventValue"
+  - Name: Sts_eNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_eNotReady"
+  - Name: Sts_EventMessage
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_EventMessage"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Faulted"
+  - Name: Sts_FltResetIP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_FltResetIP"
+  - Name: Sts_Homed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Homed"
+  - Name: Sts_InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_InhibitCmd"
+  - Name: Sts_InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_InhibitSet"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Ready"
+  - Name: Sts_Referenced
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Referenced"
+  - Name: Sts_tEventTimeD0
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_tEventTimeD0"
+  - Name: Sts_tEventTimeD1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_tEventTimeD1"
+  - Name: Sts_tEventTimeD2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_tEventTimeD2"
+  - Name: Sts_tEventTimeD3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_tEventTimeD3"
+  - Name: Sts_UserUnits
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_UserUnits"
+  - Name: Sts_Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Virtual"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_Warning"
+  - Name: Sts_ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Sts_ZeroSpeed"
+  - Name: Val_ActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Val_ActualPosition"
+  - Name: Val_ActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Dvc_K5100.Val_ActualVelocity"
+- Name: Ref_bEMAbortRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMAbortRequestParent"
+- Name: Ref_bEMClearRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMClearRequestParent"
+- Name: Ref_bEMHoldRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMHoldRequestParent"
+- Name: Ref_bEMModeRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMModeRequestParent"
+- Name: Ref_bEMResetRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMResetRequestParent"
+- Name: Ref_bEMStartRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMStartRequestParent"
+- Name: Ref_bEMStopRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMStopRequestParent"
+- Name: Ref_bEMUnHoldRequestParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bEMUnHoldRequestParent"
+- Name: Ref_bSelectedParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bSelectedParent"
+- Name: Ref_bStateCompleteParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_bStateCompleteParent"
+- Name: Ref_eEMModeParent
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Ref_eEMModeParent"
+- Name: Set_EMSimulate_PeriodicFlt
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Set_EMSimulate_PeriodicFlt"
+- Name: Set_EMSimulate_StateDelay
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Set_EMSimulate_StateDelay"
+- Name: SlaveScaling
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.SlaveScaling"
+- Name: Sts_EMID
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Sts_EMID"
+- Name: _Cmd_ClearFaults
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Cmd_ClearFaults"
+- Name: _Cmd_Initialize
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Cmd_Initialize"
+- Name: _Cmd_Run
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Cmd_Run"
+- Name: _Cmd_Terminate
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Cmd_Terminate"
+- Name: _eEMMode
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._eEMMode"
+- Name: _EMAbortRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMAbortRequest"
+- Name: _EMClearRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMClearRequest"
+- Name: _EMHoldRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMHoldRequest"
+- Name: _EMModeRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMModeRequest"
+- Name: _EMResetRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMResetRequest"
+- Name: _EMStartRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMStartRequest"
+- Name: _EMStopRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMStopRequest"
+- Name: _EMUnholdRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._EMUnholdRequest"
+- Name: _MaintenanceMode
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._MaintenanceMode"
+- Name: _ManualMode
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._ManualMode"
+- Name: _ProductionMode
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._ProductionMode"
+- Name: _SEQ_Clear
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SEQ_Clear"
+- Name: _SEQ_Initialize
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SEQ_Initialize"
+- Name: _SEQ_Manual
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SEQ_Manual"
+- Name: _SEQ_Run
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SEQ_Run"
+- Name: _SEQ_Terminate
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SEQ_Terminate"
+- Name: _SIM_ActingStateMask
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SIM_ActingStateMask"
+- Name: _SIM_CurrentState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SIM_CurrentState"
+- Name: _SIM_LastState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SIM_LastState"
+- Name: _SIM_ONSTOF
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._SIM_ONSTOF"
+- Name: _SIM_StateResponseTON
+  Type: TIMER
+  DataType: TIMER
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: 0
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[0].ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[0].DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[0].EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[0].PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[0].TT"
+  - Name: 1
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[1].ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[1].DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[1].EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[1].PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:EM04_K5100._SIM_StateResponseTON[1].TT"
+- Name: _Sts_ClearSeq_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_ClearSeq_ER"
+- Name: _Sts_ClearSeq_PC
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_ClearSeq_PC"
+- Name: _Sts_InitializeSeq_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_InitializeSeq_ER"
+- Name: _Sts_InitializeSeq_PC
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_InitializeSeq_PC"
+- Name: _Sts_ManualSeq_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_ManualSeq_ER"
+- Name: _Sts_ManualSeq_PC
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_ManualSeq_PC"
+- Name: _Sts_RunSeq_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_RunSeq_ER"
+- Name: _Sts_RunSeq_PC
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_RunSeq_PC"
+- Name: _Sts_TerminateSeq_ER
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_TerminateSeq_ER"
+- Name: _Sts_TerminateSeq_PC
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100._Sts_TerminateSeq_PC"
+- Name: Cfg_EMUnholdType
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.Cfg_EMUnholdType"
+- Name: Ctrl_Cfg
+  Type: raC_UDT_Itf_K5100_Cfg
+  DataType: raC_UDT_Itf_K5100_Cfg
+  Children:
+  - Name: ConversionConstant
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cfg.ConversionConstant"
+  - Name: MotionResolution
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cfg.MotionResolution"
+  - Name: OperatingUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.Ctrl_Cfg.OperatingUnits"
+- Name: RunPos
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.RunPos"
+- Name: RunSpd
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.RunSpd"
+- Name: RunAccDec
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.RunAccDec"
+- Name: EM_Faults
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.EM_Faults"
+- Name: AxisHomeSetCmd
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM04_K5100.AxisHomeSetCmd"
+- Name: MAH_01
+  Type: raC_Opr_K5100_MAH
+  DataType: raC_Opr_K5100_MAH
+  Children:
+  - Name: _bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01._bSts"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.EnableOut"
+  - Name: Set_AccelReference
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_AccelReference"
+  - Name: Set_DecelReference
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_DecelReference"
+  - Name: Set_HomeReturnSpeed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_HomeReturnSpeed"
+  - Name: Set_HomingMethod
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_HomingMethod"
+  - Name: Set_PositionReference
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_PositionReference"
+  - Name: Set_SpeedReference
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Set_SpeedReference"
+  - Name: Sts_DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_DN"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_EN"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_ER"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_ERR"
+  - Name: Sts_IP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_IP"
+  - Name: Sts_PC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:EM04_K5100.MAH_01.Sts_PC"

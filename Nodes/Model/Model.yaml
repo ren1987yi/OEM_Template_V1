@@ -531,7 +531,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J1/ActualPosition"
+          Value: "../../../../GodotSimulate/a1"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -567,7 +567,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J2/ActualPosition"
+          Value: "../../../../GodotSimulate/a2"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -603,7 +603,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J3/ActualPosition"
+          Value: "../../../../GodotSimulate/a3"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -639,7 +639,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J4/ActualPosition"
+          Value: "../../../../GodotSimulate/a4"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -675,7 +675,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J5/ActualPosition"
+          Value: "../../../../GodotSimulate/a5"
           Children:
           - Name: Mode
             Type: BaseVariableType
@@ -711,7 +711,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "../../../../../CommDrivers/RA/Robot/Tags/Controller Tags/J6/ActualPosition"
+          Value: "../../../../GodotSimulate/a6"
           Children:
           - Name: Mode
             Type: BaseVariableType

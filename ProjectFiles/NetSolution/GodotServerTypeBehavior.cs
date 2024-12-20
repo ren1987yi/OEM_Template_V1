@@ -168,6 +168,7 @@ public class GodotServerTypeBehavior : BaseNetBehavior
         {
             Log.Info("Godot Event", $"SendScene id={viewid} name={name}");
             _wsServer.SendPackage(SendPackageType.ChangeScene, new Package_SceneChange() { SceneName = name }, $"{viewid}");
+            _wsServer.SendPackage(SendPackageType.ChangeScene, new Package_SceneChange() { SceneName = name }, "*");
         }
     }
 

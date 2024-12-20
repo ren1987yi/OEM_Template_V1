@@ -187,3 +187,4 @@ Children:
 - File: Layouts/Layouts.yaml
 - File: Dialogs/Dialogs.yaml
 - File: Templates/Templates.yaml
+- File: RALibrary/RALibrary.yaml

@@ -1,0 +1,987 @@
+Name: 'Program:PerformanceTrack'
+Type: FolderType
+Children:
+- Name: _ModeCumulative
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack._ModeCumulative"
+- Name: _PerformanceTracking
+  Type: raM_Tec_PerformanceTracking
+  DataType: raM_Tec_PerformanceTracking
+  Children:
+  - Name: _bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking._bSts"
+  - Name: Cfg_EnabledStates
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Cfg_EnabledStates"
+  - Name: Cmd_Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Cmd_Reset"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.EnableOut"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.HMI_Tab"
+  - Name: HMI_Version
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.HMI_Version"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Inf_Lib"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Inf_Type"
+  - Name: Inf_UOM
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Inf_UOM"
+  - Name: OCmd_Reset
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.OCmd_Reset"
+  - Name: Out_01H_Availability
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_Availability"
+  - Name: Out_01H_LostActualUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_LostActualUnits"
+  - Name: Out_01H_LostAvailableUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_LostAvailableUnits"
+  - Name: Out_01H_LostRunningUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_LostRunningUnits"
+  - Name: Out_01H_OEE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_OEE"
+  - Name: Out_01H_Performance
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_Performance"
+  - Name: Out_01H_ProducedGoodUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_ProducedGoodUnits"
+  - Name: Out_01H_ProducedIdealAvailableUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_ProducedIdealAvailableUnits"
+  - Name: Out_01H_ProducedIdealRunningUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_ProducedIdealRunningUnits"
+  - Name: Out_01H_ProducedTotalUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_ProducedTotalUnits"
+  - Name: Out_01H_Quality
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_01H_Quality"
+  - Name: Out_AccTimeSinceReset
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_AccTimeSinceReset"
+  - Name: Out_ModeCurrent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_ModeCurrent"
+  - Name: Out_ModeCurrentTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_ModeCurrentTime"
+  - Name: Out_StateCurrent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_StateCurrent"
+  - Name: Out_StateCurrentTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_StateCurrentTime"
+  - Name: Out_xxH_Availability
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_Availability"
+  - Name: Out_xxH_LostActualUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_LostActualUnits"
+  - Name: Out_xxH_LostAvailableUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_LostAvailableUnits"
+  - Name: Out_xxH_LostRunningUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_LostRunningUnits"
+  - Name: Out_xxH_OEE
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_OEE"
+  - Name: Out_xxH_Performance
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_Performance"
+  - Name: Out_xxH_ProducedGoodUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_ProducedGoodUnits"
+  - Name: Out_xxH_ProducedIdealAvailableUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_ProducedIdealAvailableUnits"
+  - Name: Out_xxH_ProducedIdealRunningUnits
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_ProducedIdealRunningUnits"
+  - Name: Out_xxH_ProducedTotalUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_ProducedTotalUnits"
+  - Name: Out_xxH_Quality
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Out_xxH_Quality"
+  - Name: raM_Tec_PerformanceTracking
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.raM_Tec_PerformanceTracking"
+  - Name: Set_DesignSpeed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Set_DesignSpeed"
+  - Name: Set_OEETarget_PCT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Set_OEETarget_PCT"
+  - Name: Set_TimeHorizon
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Set_TimeHorizon"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_EN"
+  - Name: Sts_EO
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_EO"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_ER"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_ERR"
+  - Name: Sts_EXERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_EXERR"
+  - Name: Sts_IP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_IP"
+  - Name: Sts_ModeCumulativeTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_ModeCumulativeTime"
+  - Name: Sts_NextUpdate
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_NextUpdate"
+  - Name: Sts_OEEsnapshot
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_OEEsnapshot"
+  - Name: Sts_PrgDefinedDesignSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_PrgDefinedDesignSpeed"
+  - Name: Sts_PrgrsBar
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_PrgrsBar"
+  - Name: Sts_ResetDN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_ResetDN"
+  - Name: Sts_sMode
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_sMode"
+  - Name: Sts_StateCumulativeTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [25]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:PerformanceTrack._PerformanceTracking.Sts_StateCumulativeTime"
+- Name: _StateCumulative
+  Type: raM_UDT_Tec_PrfTrk_TiSarray
+  DataType: raM_UDT_Tec_PrfTrk_TiSarray
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: 0
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[0].State"
+  - Name: 1
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[1].State"
+  - Name: 2
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[2].State"
+  - Name: 3
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[3].State"
+  - Name: 4
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[4].State"
+  - Name: 5
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[5].State"
+  - Name: 6
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[6].State"
+  - Name: 7
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[7].State"
+  - Name: 8
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[8].State"
+  - Name: 9
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[9].State"
+  - Name: 10
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[10].State"
+  - Name: 11
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[11].State"
+  - Name: 12
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[12].State"
+  - Name: 13
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[13].State"
+  - Name: 14
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[14].State"
+  - Name: 15
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[15].State"
+  - Name: 16
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[16].State"
+  - Name: 17
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[17].State"
+  - Name: 18
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[18].State"
+  - Name: 19
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[19].State"
+  - Name: 20
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[20].State"
+  - Name: 21
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[21].State"
+  - Name: 22
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[22].State"
+  - Name: 23
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[23].State"
+  - Name: 24
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[24].State"
+  - Name: 25
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[25].State"
+  - Name: 26
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[26].State"
+  - Name: 27
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[27].State"
+  - Name: 28
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[28].State"
+  - Name: 29
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[29].State"
+  - Name: 30
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[30].State"
+  - Name: 31
+    Type: raM_UDT_Tec_PrfTrk_TiSarray
+    DataType: raM_UDT_Tec_PrfTrk_TiSarray
+    Children:
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [25]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:PerformanceTrack._StateCumulative[31].State"
+- Name: Inp_bMode
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Inp_bMode"
+- Name: Inp_bState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Inp_bState"
+- Name: Inp_eMode
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Inp_eMode"
+- Name: Inp_eState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Inp_eState"
+- Name: Cmd_ResetAll
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Cmd_ResetAll"
+- Name: Val_TotalPacks
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Val_TotalPacks"
+- Name: Val_GoodPacks
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.Val_GoodPacks"
+- Name: ONS
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:PerformanceTrack.ONS"

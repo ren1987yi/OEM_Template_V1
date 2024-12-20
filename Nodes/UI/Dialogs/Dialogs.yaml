@@ -2828,7 +2828,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 310.0
+            Value: -1.0
           - Name: BorderThickness
             Type: BaseDataVariableType
             DataType: Size
@@ -2838,12 +2838,12 @@ Children:
             Type: BaseVariableType
             DataType: HorizontalAlignment
             ModellingRule: Optional
-            Value: 2
+            Value: 3
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
             ModellingRule: Optional
-            Value: 2
+            Value: 1
           - Name: FillColor
             Type: BaseDataVariableType
             DataType: Color
@@ -2854,97 +2854,6 @@ Children:
             DataType: Boolean
             ModellingRule: Optional
             Value: true
-          - Name: Label1
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{EventType}"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-          - Name: Label2
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{EventSubType}"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 24.0
-          - Name: Label3
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{SouceObject}"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 54.0
-          - Name: Label4
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{Arg0}"
-            - Name: TextColor
-              Type: BaseDataVariableType
-              DataType: Color
-              ModellingRule: Optional
-              Value: "#ffffff"
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-            - Name: TopMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 90.0
           - Name: LeftMargin
             Type: BaseVariableType
             DataType: Size
@@ -2961,6 +2870,235 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+          - Name: VerticalLayout1
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 50.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1.0
+            - Name: Label1
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{EventType}"
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+            - Name: Label2
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{EventSubType}"
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+            - Name: Label3
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{SouceObject}"
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+            - Name: Label4
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Arg0}"
+              - Name: TextColor
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: Optional
+                Value: "#ffffff"
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+            - Name: VerticalGap
+              Type: BaseDataVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 4.0
+            - Name: HorizontalAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              ModellingRule: Optional
+              Value: 3
+        - Name: raC_3_03_raC_Dvc_K5300_NoDialog1
+          Type: raC_3_03_raC_Dvc_K5300_NoDialog
+          Children:
+          - Name: raSDK1_DialogBox
+            Type: Alias
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+          - Name: NavigationPanel
+            Type: NavigationPanel
+            Children:
+            - Name: Panels
+              Type: BaseObjectType
+              Children:
+              - Name: Panel1
+                Type: NavigationPanelItem
+                Children:
+                - Name: Title
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/OEM_Template_V1/UI/RALibrary/raC_3_03_raC_Dvc_K5300_UI/<PrivateElements>/Panels-Faceplate/raC_3_03_raC_Dvc_K5300_Home"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+              - Name: Panel2
+                Type: NavigationPanelItem
+                Children:
+                - Name: Title
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/OEM_Template_V1/UI/RALibrary/raC_3_03_raC_Dvc_K5300_UI/<PrivateElements>/Panels-Faceplate/raC_3_03_raC_Dvc_K5300_IO"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+              - Name: Panel3
+                Type: NavigationPanelItem
+                Children:
+                - Name: Title
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/OEM_Template_V1/UI/RALibrary/raC_3_03_raC_Dvc_K5300_UI/<PrivateElements>/Panels-Faceplate/raC_3_03_raC_Dvc_K5300_Trend"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+              - Name: Panel4
+                Type: NavigationPanelItem
+                Children:
+                - Name: Title
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/OEM_Template_V1/UI/RALibrary/raC_3_03_raC_Dvc_K5300_UI/<PrivateElements>/Panels-Faceplate/raC_3_03_raC_Dvc_K5300_Fault"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+              - Name: Panel5
+                Type: NavigationPanelItem
+                Children:
+                - Name: Title
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                - Name: Panel
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/OEM_Template_V1/UI/RALibrary/raC_3_03_raC_Dvc_K5300_UI/<PrivateElements>/Panels-Faceplate/raC_3_03_raC_Dvc_K5300_Extensions"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+            - Name: CurrentPanel
+              Type: NodePointer
+              DataType: NodeId
+              AccessLevel: Read
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+            - Name: CurrentTabIndex
+              Type: BaseDataVariableType
+              DataType: Int32
+            - Class: Reference
+              Target: ns=3;i=1183
+              Direction: Forward
+            - Class: Reference
+              Target: ns=3;i=1181
+              Direction: Forward
+          - Name: BottomMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 80.0
     - Name: MoveTarget
       Type: NodePointer
       DataType: NodeId

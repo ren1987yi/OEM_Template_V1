@@ -4896,6 +4896,7 @@ Children:
             - Name: SceneName
               Type: BaseDataVariableType
               DataType: String
+              Value: "scenes/demo3"
             - Name: TopMargin
               Type: BaseVariableType
               DataType: Size
@@ -5140,28 +5141,151 @@ Children:
                     DataType: LocalizedText
                     ModellingRule: Optional
                     Value: {"LocaleId":"en-US","Text":"Scene Name"}
-                - Name: TextBox1
-                  Type: TextBox
+                - Name: HorizontalLayout1
+                  Type: RowLayout
                   Children:
-                  - Name: Text
-                    Type: BaseDataVariableType
-                    DataType: LocalizedText
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "../../../../../../Panel2/GodotViewer1/SceneName"
-                      Children:
-                      - Name: Mode
-                        Type: BaseVariableType
-                        DataType: DynamicLinkMode
-                        ModellingRule: Optional
-                        Value: 2
                   - Name: Width
                     Type: BaseVariableType
                     DataType: Size
                     ModellingRule: Optional
-                    Value: 110.0
+                    Value: 50.0
+                  - Name: Height
+                    Type: BaseVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 50.0
+                  - Name: HorizontalAlignment
+                    Type: BaseVariableType
+                    DataType: HorizontalAlignment
+                    ModellingRule: Optional
+                    Value: 3
+                  - Name: TextBox1
+                    Type: TextBox
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../Panel2/GodotViewer1/SceneName"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 110.0
+                  - Name: ComboBox1
+                    Type: ComboBox
+                    Children:
+                    - Name: Text
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                    - Name: Model
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: ItemKind
+                        Type: PropertyType
+                        DataType: NodeId
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../Object1@NodeId"
+                    - Name: SelectedValue
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../../Panel2/GodotViewer1/SceneName"
+                        Children:
+                        - Name: Mode
+                          Type: BaseVariableType
+                          DataType: DynamicLinkMode
+                          ModellingRule: Optional
+                          Value: 2
+                    - Name: SelectedItem
+                      Type: NodePointer
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                    - Name: UISelectedItem
+                      Type: BaseDataVariableType
+                      DataType: NodeId
+                      AccessLevel: Read
+                    - Name: UISelectedValue
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      AccessLevel: Read
+                    - Class: Reference
+                      Target: ns=3;i=480
+                      Direction: Forward
+                    - Name: Width
+                      Type: BaseVariableType
+                      DataType: Size
+                      ModellingRule: Optional
+                      Value: 144.0
+                    - Name: Item
+                      Type: Alias
+                      DataType: NodeId
+                      Children:
+                      - Name: Kind
+                        Type: PropertyType
+                        DataType: NodeId
+                    - Name: Object1
+                      Type: BaseObjectType
+                      Children:
+                      - Name: Robot
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "scenes/demo3"
+                      - Name: Scene1
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "scenes/demo2"
+                      - Name: Simple
+                        Type: BaseDataVariableType
+                        DataType: String
+                        Value: "scenes/demo1"
+                    - Name: Query
+                      Type: BaseDataVariableType
+                      DataType: String
+                      ModellingRule: Optional
+                      Value: "SELECT * FROM Model"
+                    - Name: DisplayValuePath
+                      Type: BaseDataVariableType
+                      DataType: LocalizedText
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "{Item}@BrowseName"
+                    - Name: SelectedValuePath
+                      Type: BaseDataVariableType
+                      DataType: BaseDataType
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "{Item}@Value"
+                  - Name: HorizontalGap
+                    Type: BaseDataVariableType
+                    DataType: Size
+                    ModellingRule: Optional
+                    Value: 8.0
             - Name: HorizontalAlignment
               Type: BaseVariableType
               DataType: HorizontalAlignment
@@ -5950,297 +6074,6 @@ Children:
           DataType: Color
           ModellingRule: Optional
           Value: "#fc0000"
-- Name: PageNodeEditor
-  Id: g=109afc16fd8b5caf1ee9411bfd522c21
-  Supertype: PageTemplate
-  ReferenceType: HasComponent
-  Children:
-  - Name: TitleText
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Charts"}
-  - Name: HelpDialog
-    Type: NodePointer
-    DataType: NodeId
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/Dialog"
-  - Name: VL
-    Type: ColumnLayout
-    Children:
-    - Name: Title
-      Type: Panel
-      Children:
-      - Name: lbCaption
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Children:
-              - Name: ExpressionEvaluator1
-                Type: ExpressionEvaluator
-                Children:
-                - Name: Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../../../TitleText"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../..@BrowseName"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              Value: {"LocaleId":"en-US","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../../TitleText"
-      - Name: imgHelp
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=7;%PROJECTDIR%/Images/Icons/PajamasQuestion.svg"
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-          Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../../HelpDialog@Pointer"
-        - Name: MouseDownEventHandler1
-          Type: EventHandler
-          Children:
-          - Name: ListenEventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-          - Name: MethodsToCall
-            Type: BaseObjectType
-            Children:
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/UICommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "OpenDialog"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: Dialog
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../../../HelpDialog"
-                - Name: AliasNode
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  ValueRank: ScalarOrOneDimension
-                - Name: ParentItem
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../..@NodeId"
-              - Name: OutputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: DialogNodeId
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-          - Name: EventArguments
-            Type: MouseDownEvent
-            Children:
-            - Name: EventId
-              Type: PropertyType
-              DataType: ByteString
-            - Name: EventType
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceNode
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceName
-              Type: PropertyType
-              DataType: String
-            - Name: Time
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: ReceiveTime
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: Message
-              Type: PropertyType
-              DataType: LocalizedText
-            - Name: Severity
-              Type: PropertyType
-              DataType: UInt16
-    - Name: Content
-      Type: Panel
-      Children:
-      - Name: GodotViewer1
-        Type: GodotViewer
-        Children:
-        - Name: URL
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-        - Class: Reference
-          Target: ns=3;i=354
-          Direction: Forward
-        - Class: Reference
-          Target: ns=3;i=356
-          Direction: Forward
-        - Class: Reference
-          Target: ns=3;i=358
-          Direction: Forward
-        - Name: GodotWebBrowser_RuntimeLogic
-          Type: NetLogic
-        - Name: Root
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "http://127.0.0.1:49000/index.html"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/OEM_Template_V1/Model/GlobalModels/HMISetting/GodotHost"
-        - Name: GodotEvents
-          Type: Alias
-          DataType: NodeId
-          Value: "/Objects/OEM_Template_V1/WebServer/GodotServer/Events"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Objects/OEM_Template_V1/WebServer/GodotServer/Events"
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: NewEventTrigger
-          Type: BaseDataVariableType
-          DataType: Boolean
-        - Name: EventType
-          Type: BaseDataVariableType
-          DataType: Int32
-        - Name: EventSubType
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: EventSourceObject
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: EventArgs0
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: EventArgs1
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: EventArgs2
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: EventArgs3
-          Type: BaseDataVariableType
-          DataType: String
-        - Name: CamIndex
-          Type: BaseDataVariableType
-          DataType: Int32
-        - Name: GodotServer
-          Type: NodePointer
-          DataType: NodeId
-          Value: "/Objects/OEM_Template_V1/WebServer/GodotServer"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Objects/OEM_Template_V1/Model/Types/3DViewer/GodotServerType"
-        - Name: SceneIndex
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "0"
-        - Name: Background
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "dbdfe2"
-        - Name: SceneName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "NodeEditorEx"
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 8.0
 - Name: PageExternalScript
   Id: g=a02182abb3fd40a743a4f82bbc6bfa0b
   Supertype: PageTemplate
@@ -8076,257 +7909,6 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 16.0
-- Name: PageVisualScript
-  Id: g=9287d100b852b7e1bb19d3e69717e21f
-  Supertype: PageTemplate
-  ReferenceType: HasComponent
-  Children:
-  - Name: TitleText
-    Type: BaseDataVariableType
-    DataType: LocalizedText
-  - Name: HelpDialog
-    Type: NodePointer
-    DataType: NodeId
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container/Dialog"
-  - Name: VL
-    Type: ColumnLayout
-    Children:
-    - Name: Title
-      Type: Panel
-      Children:
-      - Name: lbCaption
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Children:
-              - Name: ExpressionEvaluator1
-                Type: ExpressionEvaluator
-                Children:
-                - Name: Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../../../TitleText"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../..@BrowseName"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              Value: {"LocaleId":"en-US","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../../TitleText"
-      - Name: imgHelp
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=7;%PROJECTDIR%/Images/Icons/PajamasQuestion.svg"
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-          Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../../HelpDialog@Pointer"
-        - Name: MouseDownEventHandler1
-          Type: EventHandler
-          Children:
-          - Name: ListenEventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
-          - Name: MethodsToCall
-            Type: BaseObjectType
-            Children:
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Value: "/Objects/Commands/UICommands"
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "OpenDialog"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: Dialog
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../../../../HelpDialog"
-                - Name: AliasNode
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  ValueRank: ScalarOrOneDimension
-                - Name: ParentItem
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../..@NodeId"
-              - Name: OutputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: DialogNodeId
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-          - Name: EventArguments
-            Type: MouseDownEvent
-            Children:
-            - Name: EventId
-              Type: PropertyType
-              DataType: ByteString
-            - Name: EventType
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceNode
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceName
-              Type: PropertyType
-              DataType: String
-            - Name: Time
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: ReceiveTime
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: Message
-              Type: PropertyType
-              DataType: LocalizedText
-            - Name: Severity
-              Type: PropertyType
-              DataType: UInt16
-    - Name: Content
-      Type: Panel
-      Children:
-      - Name: NavigationPanel1
-        Type: NavigationPanel
-        Children:
-        - Name: Panels
-          Type: BaseObjectType
-          Children:
-          - Name: Panel1
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/OEM_Template_V1/VisualScript/UI/VisualScriptOptix_Editor"
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-          - Name: Panel2
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/OEM_Template_V1/VisualScript/UI/VisualScriptOptix_RuntimeConsole"
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-        - Name: CurrentPanel
-          Type: NodePointer
-          DataType: NodeId
-          AccessLevel: Read
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
-        - Name: CurrentTabIndex
-          Type: BaseDataVariableType
-          DataType: Int32
-        - Class: Reference
-          Target: ns=3;i=1181
-          Direction: Forward
-        - Class: Reference
-          Target: ns=3;i=1183
-          Direction: Forward
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 300.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 300.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
 - Name: PageFormIO
   Id: g=0dae0b2e8a17517aecfbb4c0c2074460
   Supertype: PageTemplate
